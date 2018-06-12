@@ -1,0 +1,2000 @@
+@relation 'Euthyroid Check-weka.filters.unsupervised.attribute.Remove-R1-9,11-15,17,19-20'
+
+@attribute Sick {F,T}
+@attribute 'T3 measured' numeric
+@attribute 'T4U measured' numeric
+@attribute Result {'Sick Euthyroid',Negative}
+
+@data
+F,1,0.73,'Sick Euthyroid'
+T,1,0.82,'Sick Euthyroid'
+F,0.8,0.77,'Sick Euthyroid'
+F,0.3,0.95,'Sick Euthyroid'
+F,0.8,0.88,'Sick Euthyroid'
+F,0.7,0.81,'Sick Euthyroid'
+F,1.1,0.73,'Sick Euthyroid'
+F,0.8,0.68,'Sick Euthyroid'
+F,1,0.89,'Sick Euthyroid'
+F,0.9,0.71,'Sick Euthyroid'
+F,0.6,1.06,'Sick Euthyroid'
+T,0.2,0.73,'Sick Euthyroid'
+F,0.8,0.81,'Sick Euthyroid'
+F,1,0.84,'Sick Euthyroid'
+F,1,0.69,'Sick Euthyroid'
+F,1.1,0.92,'Sick Euthyroid'
+T,0.8,0.77,'Sick Euthyroid'
+F,0.3,0.8,'Sick Euthyroid'
+T,0.8,0.77,'Sick Euthyroid'
+F,0.4,0.8,'Sick Euthyroid'
+F,1.1,0.9,'Sick Euthyroid'
+F,1.1,0.8,'Sick Euthyroid'
+T,1,0.93,'Sick Euthyroid'
+F,1,0.79,'Sick Euthyroid'
+T,0.8,0.84,'Sick Euthyroid'
+T,0.8,0.77,'Sick Euthyroid'
+T,0.6,0.84,'Sick Euthyroid'
+F,2.8,0.84,'Sick Euthyroid'
+F,1,0.66,'Sick Euthyroid'
+T,0.8,0.52,'Sick Euthyroid'
+F,1.1,0.92,'Sick Euthyroid'
+F,1.3,0.87,'Sick Euthyroid'
+F,0.8,0.93,'Sick Euthyroid'
+T,0.7,0.79,'Sick Euthyroid'
+F,0.7,0.68,'Sick Euthyroid'
+F,0.8,0.69,'Sick Euthyroid'
+F,0.9,0.84,'Sick Euthyroid'
+F,0.9,0.85,'Sick Euthyroid'
+F,1,0.88,'Sick Euthyroid'
+F,0.9,0.88,'Sick Euthyroid'
+F,0.9,0.76,'Sick Euthyroid'
+F,1,1.01,'Sick Euthyroid'
+F,0.3,0.83,'Sick Euthyroid'
+T,0.7,1.12,'Sick Euthyroid'
+F,1.1,0.89,'Sick Euthyroid'
+F,1,0.9,'Sick Euthyroid'
+F,1,0.79,'Sick Euthyroid'
+F,0.9,0.78,'Sick Euthyroid'
+F,1,0.92,'Sick Euthyroid'
+F,0.2,0.76,'Sick Euthyroid'
+F,1.1,0.85,'Sick Euthyroid'
+F,1.1,0.81,'Sick Euthyroid'
+F,1,0.92,'Sick Euthyroid'
+F,1.3,1.02,'Sick Euthyroid'
+F,0.9,0.92,'Sick Euthyroid'
+F,0.9,0.79,'Sick Euthyroid'
+F,0.4,0.73,'Sick Euthyroid'
+F,0.9,0.95,'Sick Euthyroid'
+F,0.7,0.82,'Sick Euthyroid'
+F,1,0.82,'Sick Euthyroid'
+F,0.5,0.41,'Sick Euthyroid'
+F,0.8,0.73,'Sick Euthyroid'
+F,0.7,0.93,'Sick Euthyroid'
+F,0.6,0.7,'Sick Euthyroid'
+F,0.9,0.79,'Sick Euthyroid'
+T,2.5,1.18,'Sick Euthyroid'
+T,0.3,0.9,'Sick Euthyroid'
+F,0.8,1.12,'Sick Euthyroid'
+F,0.7,0.33,'Sick Euthyroid'
+F,0.9,0.87,'Sick Euthyroid'
+F,1,0.87,'Sick Euthyroid'
+F,1,0.89,'Sick Euthyroid'
+T,0.5,0.58,'Sick Euthyroid'
+F,0.7,0.78,'Sick Euthyroid'
+T,0.9,1.04,'Sick Euthyroid'
+F,0.8,0.99,'Sick Euthyroid'
+F,1,0.67,'Sick Euthyroid'
+T,1,0.89,'Sick Euthyroid'
+F,0.2,0.6,'Sick Euthyroid'
+F,0.1,0.68,'Sick Euthyroid'
+T,0.9,0.98,'Sick Euthyroid'
+F,0.8,0.88,'Sick Euthyroid'
+F,0.6,0.86,'Sick Euthyroid'
+T,0.5,0.85,'Sick Euthyroid'
+F,1,1.05,'Sick Euthyroid'
+F,0.9,0.87,'Sick Euthyroid'
+F,1.1,0.96,'Sick Euthyroid'
+F,1,1.02,'Sick Euthyroid'
+F,1.7,1,'Sick Euthyroid'
+F,1.1,0.92,'Sick Euthyroid'
+F,0.8,0.76,'Sick Euthyroid'
+F,0.8,0.91,'Sick Euthyroid'
+F,0.8,0.64,'Sick Euthyroid'
+F,0.3,0.98,'Sick Euthyroid'
+F,0.8,0.81,'Sick Euthyroid'
+F,0.6,0.86,'Sick Euthyroid'
+F,0.9,0.61,'Sick Euthyroid'
+F,0.9,0.71,'Sick Euthyroid'
+F,1.2,0.78,'Sick Euthyroid'
+T,1.3,1.07,'Sick Euthyroid'
+F,0.3,0.8,'Sick Euthyroid'
+F,1.1,0.75,'Sick Euthyroid'
+F,0.8,0.9,'Sick Euthyroid'
+F,1,0.98,'Sick Euthyroid'
+F,0.6,0.8,'Sick Euthyroid'
+F,1.1,0.81,'Sick Euthyroid'
+F,0.4,0.8,'Sick Euthyroid'
+F,2.8,1.07,'Sick Euthyroid'
+F,0.4,0.73,'Sick Euthyroid'
+F,0.05,1.14,'Sick Euthyroid'
+F,0.2,0.9,'Sick Euthyroid'
+T,1,0.85,'Sick Euthyroid'
+F,0.8,0.75,'Sick Euthyroid'
+F,1.1,0.75,'Sick Euthyroid'
+F,1,0.91,'Sick Euthyroid'
+T,1,0.63,'Sick Euthyroid'
+F,0.7,0.72,'Sick Euthyroid'
+F,0.6,0.57,'Sick Euthyroid'
+F,1.1,1.01,'Sick Euthyroid'
+F,1,0.7,'Sick Euthyroid'
+F,0.9,0.9,'Sick Euthyroid'
+F,0.5,0.75,'Sick Euthyroid'
+F,1,0.64,'Sick Euthyroid'
+F,1.1,1.11,'Sick Euthyroid'
+F,1.1,1.02,'Sick Euthyroid'
+F,0.7,0.77,'Sick Euthyroid'
+F,0.8,0.75,'Sick Euthyroid'
+F,0.6,0.84,'Sick Euthyroid'
+F,1,0.81,'Sick Euthyroid'
+F,0.7,0.77,'Sick Euthyroid'
+F,1.1,1.02,'Sick Euthyroid'
+T,0.9,0.56,'Sick Euthyroid'
+F,1.1,0.98,'Sick Euthyroid'
+T,0.9,0.78,'Sick Euthyroid'
+T,0.7,0.77,'Sick Euthyroid'
+T,0.3,0.54,'Sick Euthyroid'
+F,1.1,0.74,'Sick Euthyroid'
+F,1.1,1.06,'Sick Euthyroid'
+F,0.8,0.78,'Sick Euthyroid'
+F,1,1.02,'Sick Euthyroid'
+F,1.4,1.05,'Sick Euthyroid'
+T,0.9,0.95,'Sick Euthyroid'
+F,0.7,0.82,'Sick Euthyroid'
+F,0.7,0.65,'Sick Euthyroid'
+F,1.1,0.77,'Sick Euthyroid'
+F,2.8,0.84,'Sick Euthyroid'
+F,1,0.82,'Sick Euthyroid'
+F,1.1,0.48,'Sick Euthyroid'
+F,1.1,0.91,'Sick Euthyroid'
+T,0.7,0.93,'Sick Euthyroid'
+F,0.9,0.82,'Sick Euthyroid'
+F,0.4,0.8,'Sick Euthyroid'
+F,0.4,0.86,'Sick Euthyroid'
+F,1.1,0.87,'Sick Euthyroid'
+F,0.9,0.92,'Sick Euthyroid'
+F,1,0.69,'Sick Euthyroid'
+F,1.9,1.41,'Sick Euthyroid'
+F,1.1,0.9,'Sick Euthyroid'
+F,1,0.82,'Sick Euthyroid'
+F,2.2,0.94,'Sick Euthyroid'
+F,0.4,0.73,'Sick Euthyroid'
+F,0.8,0.94,'Sick Euthyroid'
+T,0.7,0.74,'Sick Euthyroid'
+F,0.9,0.78,'Sick Euthyroid'
+T,1.1,0.71,'Sick Euthyroid'
+F,0.9,0.92,'Sick Euthyroid'
+F,1.1,0.6,'Sick Euthyroid'
+F,1,0.87,'Sick Euthyroid'
+T,0.8,0.73,'Sick Euthyroid'
+T,0.8,0.82,'Sick Euthyroid'
+F,1.2,0.89,'Sick Euthyroid'
+F,1.9,0.95,'Sick Euthyroid'
+F,0.8,0.77,'Sick Euthyroid'
+F,0.6,0.55,'Sick Euthyroid'
+F,1.1,0.92,'Sick Euthyroid'
+F,1.1,1.11,'Sick Euthyroid'
+F,0.4,0.95,'Sick Euthyroid'
+F,1.1,0.73,'Sick Euthyroid'
+T,0.8,0.7,'Sick Euthyroid'
+F,2.8,0.96,'Sick Euthyroid'
+F,1.1,0.94,'Sick Euthyroid'
+F,0.7,1.07,'Sick Euthyroid'
+F,0.9,0.83,'Sick Euthyroid'
+F,1,0.75,'Sick Euthyroid'
+F,0.9,0.56,'Sick Euthyroid'
+F,0.7,0.74,'Sick Euthyroid'
+F,1,0.66,'Sick Euthyroid'
+F,0.6,0.59,'Sick Euthyroid'
+T,0.4,0.86,'Sick Euthyroid'
+F,1.5,0.91,'Sick Euthyroid'
+F,0.9,0.68,'Sick Euthyroid'
+F,1.3,0.87,'Sick Euthyroid'
+F,1,0.95,'Sick Euthyroid'
+F,1.8,0.9,'Sick Euthyroid'
+F,0.2,0.29,'Sick Euthyroid'
+F,1,0.67,'Sick Euthyroid'
+F,0.8,0.73,'Sick Euthyroid'
+F,1,0.86,'Sick Euthyroid'
+F,0.8,0.9,'Sick Euthyroid'
+F,1.1,0.92,'Sick Euthyroid'
+F,0.4,0.71,'Sick Euthyroid'
+F,0.5,0.64,'Sick Euthyroid'
+F,1,0.81,'Sick Euthyroid'
+F,0.9,0.8,'Sick Euthyroid'
+T,1,0.98,'Sick Euthyroid'
+F,0.6,0.86,'Sick Euthyroid'
+T,0.9,0.59,'Sick Euthyroid'
+F,0.7,0.92,'Sick Euthyroid'
+F,1.1,0.97,'Sick Euthyroid'
+F,0.9,0.67,'Sick Euthyroid'
+F,0.8,0.73,'Sick Euthyroid'
+F,1,0.97,'Sick Euthyroid'
+F,0.9,0.7,'Sick Euthyroid'
+F,0.9,0.77,'Sick Euthyroid'
+F,1.1,1,'Sick Euthyroid'
+F,1.1,0.84,'Sick Euthyroid'
+F,0.9,0.91,'Sick Euthyroid'
+F,1,1.1,'Sick Euthyroid'
+F,1,0.91,'Sick Euthyroid'
+F,0.9,0.75,'Sick Euthyroid'
+F,1,0.91,'Sick Euthyroid'
+F,0.7,0.8,'Sick Euthyroid'
+F,0.9,0.94,'Sick Euthyroid'
+F,1,0.85,'Sick Euthyroid'
+F,0.6,0.92,'Sick Euthyroid'
+F,2.4,0.9,'Sick Euthyroid'
+F,0.8,0.68,'Sick Euthyroid'
+F,1.1,0.63,'Sick Euthyroid'
+F,0.6,0.54,'Sick Euthyroid'
+F,0.7,0.61,'Sick Euthyroid'
+F,0.6,0.79,'Sick Euthyroid'
+F,0.6,0.67,'Sick Euthyroid'
+F,0.6,0.83,'Sick Euthyroid'
+F,0.8,1.06,'Sick Euthyroid'
+F,0.9,0.8,'Sick Euthyroid'
+T,0.2,0.79,'Sick Euthyroid'
+F,0.6,0.68,'Sick Euthyroid'
+F,0.1,0.48,'Sick Euthyroid'
+F,1.8,0.99,Negative
+F,2.5,0.93,Negative
+F,1.7,0.83,Negative
+F,2.2,0.99,Negative
+F,1.5,0.97,Negative
+F,2.3,1.05,Negative
+F,2.6,1.02,Negative
+F,2.1,0.87,Negative
+F,1.6,1.07,Negative
+F,3,1.25,Negative
+F,1.2,0.83,Negative
+F,1.4,0.88,Negative
+F,2.3,1.04,Negative
+F,4,1.5,Negative
+F,9.8,1.05,Negative
+F,1.4,0.82,Negative
+F,1.4,0.84,Negative
+F,1.3,0.95,Negative
+F,1.7,0.67,Negative
+F,2.3,0.85,Negative
+F,1.1,0.95,Negative
+F,1.6,0,Negative
+T,3.9,1.71,Negative
+F,2.2,1.05,Negative
+F,2.1,1.03,Negative
+F,2.4,1.01,Negative
+F,2.2,0.98,Negative
+T,1.2,0.71,Negative
+F,1.7,0.95,Negative
+F,1.7,1.11,Negative
+F,1.4,0.9,Negative
+F,1.9,1.03,Negative
+F,1.3,0.77,Negative
+F,3.8,1.93,Negative
+F,2.1,0.95,Negative
+F,3,1.32,Negative
+F,1.9,0.96,Negative
+F,2.2,0.97,Negative
+F,2.4,1.11,Negative
+F,1.6,1.1,Negative
+F,1.6,0.87,Negative
+F,1.7,1.09,Negative
+F,2.3,0.77,Negative
+F,1.3,0.66,Negative
+F,2.7,1.68,Negative
+F,2.5,1.06,Negative
+F,1.3,1.05,Negative
+F,4.5,0.82,Negative
+F,0.4,1.04,Negative
+F,2,1.42,Negative
+F,3,1.09,Negative
+F,1.8,1.09,Negative
+F,1.2,0.66,Negative
+F,3.2,1.7,Negative
+F,3.7,1.83,Negative
+F,1.9,1.41,Negative
+F,1.5,1.03,Negative
+F,1.7,0.83,Negative
+F,2.5,1.13,Negative
+F,2.6,1.32,Negative
+F,2,0.97,Negative
+F,1.8,1,Negative
+F,1.2,0.9,Negative
+F,1.5,0.94,Negative
+F,3.4,1.11,Negative
+F,2.3,1.12,Negative
+F,3.3,1.24,Negative
+F,3.7,1.34,Negative
+F,1.8,1.06,Negative
+F,4.3,1.65,Negative
+F,1.6,0.96,Negative
+F,1.3,0.97,Negative
+F,1.3,0.93,Negative
+F,1.6,0.86,Negative
+F,1.1,0.92,Negative
+F,1.7,0.7,Negative
+F,3,1.22,Negative
+F,2.2,1.1,Negative
+F,2,0.95,Negative
+F,1.9,0.75,Negative
+F,2.2,0.86,Negative
+F,1.6,0.71,Negative
+F,1.8,1.04,Negative
+F,2.4,1.05,Negative
+F,1.1,0.88,Negative
+F,2.5,0.94,Negative
+F,1.2,0.82,Negative
+T,1.2,0.83,Negative
+F,1.8,0.9,Negative
+F,3.1,1.74,Negative
+F,1.3,0.69,Negative
+F,1.6,0.78,Negative
+F,0.7,1.03,Negative
+F,2.1,1.08,Negative
+F,1.6,0.99,Negative
+F,1.8,1.03,Negative
+F,2,0.83,Negative
+F,1.9,0.81,Negative
+F,1.3,0.99,Negative
+F,1.9,0.9,Negative
+F,2,1.08,Negative
+F,1.8,0.99,Negative
+F,2.7,1.7,Negative
+F,1.2,0.99,Negative
+F,2.5,1,Negative
+F,2.2,0.92,Negative
+F,3.5,1.05,Negative
+F,1.8,0.89,Negative
+F,1.3,0.95,Negative
+F,0.4,1.08,Negative
+F,1.8,1.16,Negative
+F,2.8,1.06,Negative
+F,2.1,0.94,Negative
+F,2,0.89,Negative
+F,3,0.83,Negative
+F,2.7,0.91,Negative
+F,1.3,0.79,Negative
+F,2.2,0.96,Negative
+F,2.2,0.94,Negative
+F,2.4,1.03,Negative
+F,1.2,1.1,Negative
+F,2,0.62,Negative
+F,2.5,1.19,Negative
+F,1.7,0.85,Negative
+F,1.3,0.99,Negative
+F,3.1,0.88,Negative
+F,0.5,0.72,Negative
+F,3,1.03,Negative
+F,2.7,1.06,Negative
+F,2.4,1.68,Negative
+F,2.1,1.1,Negative
+F,2.3,1.36,Negative
+F,2.1,1,Negative
+F,2.3,1.33,Negative
+F,2,0.79,Negative
+F,1.7,1.02,Negative
+F,1.4,0.48,Negative
+F,4.5,1.04,Negative
+F,2.4,1.07,Negative
+F,2,0.84,Negative
+F,2.3,0.89,Negative
+F,2.9,1.59,Negative
+F,2.2,0.82,Negative
+F,1.5,1.07,Negative
+F,1.3,0.97,Negative
+F,2.8,1.46,Negative
+F,0.6,0.94,Negative
+F,2,0.95,Negative
+F,3.6,1.65,Negative
+F,3.6,1.75,Negative
+F,6.6,0.98,Negative
+F,1.6,1.86,Negative
+F,1.9,0.74,Negative
+F,2.1,1,Negative
+F,1.8,0.71,Negative
+F,1.6,1.07,Negative
+F,1.8,0.97,Negative
+F,2.2,0.78,Negative
+F,2,1.16,Negative
+F,2.2,1.17,Negative
+F,3,1.38,Negative
+F,1.6,0.87,Negative
+F,0.7,0.84,Negative
+F,4.9,0.94,Negative
+F,2,0.95,Negative
+F,1.8,0.99,Negative
+F,2.7,0.89,Negative
+F,2.6,1.43,Negative
+F,3.6,0.93,Negative
+F,2.1,0.85,Negative
+F,2.1,0.88,Negative
+F,8.9,1.62,Negative
+F,4.1,2.01,Negative
+F,2.8,0.94,Negative
+F,2.4,1.23,Negative
+F,1.5,0.95,Negative
+F,2.1,1.01,Negative
+F,3.3,1.34,Negative
+F,1.9,0.94,Negative
+F,1.3,0.85,Negative
+F,2.5,1.02,Negative
+F,2,0.73,Negative
+F,1.5,0.94,Negative
+F,2,1.02,Negative
+F,1.4,0.89,Negative
+F,2,1,Negative
+F,1.8,0.84,Negative
+F,1.7,0.93,Negative
+F,1.8,0.88,Negative
+F,2.1,1.07,Negative
+F,1.3,1.08,Negative
+F,1.9,0.84,Negative
+F,2.4,1.15,Negative
+F,2,0.91,Negative
+F,1.8,0.97,Negative
+F,2.2,1.01,Negative
+F,2.2,0.73,Negative
+F,2,0.89,Negative
+F,1,0.76,Negative
+F,2.4,0.98,Negative
+F,1.9,1.11,Negative
+F,2.1,1.57,Negative
+F,1.9,0.99,Negative
+F,1.5,0.8,Negative
+F,2.5,1.04,Negative
+F,2.9,1.28,Negative
+F,1.6,1.05,Negative
+F,1.9,0.85,Negative
+F,2.3,1.06,Negative
+T,1.4,0.96,Negative
+F,1.3,0.91,Negative
+F,1.3,0.79,Negative
+F,1.9,0.96,Negative
+F,1,0.55,Negative
+F,2.2,1.05,Negative
+F,1.3,0.77,Negative
+F,1.3,0.86,Negative
+F,2.1,0.82,Negative
+F,2.2,0.93,Negative
+F,2.1,1.02,Negative
+F,2.4,0.81,Negative
+F,2.9,1.01,Negative
+F,2.1,1.1,Negative
+F,2.4,0.97,Negative
+F,1.9,0.75,Negative
+F,1.3,0.88,Negative
+F,0.9,0.95,Negative
+F,1.8,0.85,Negative
+F,1.6,1,Negative
+F,2.8,1.66,Negative
+F,1.3,0.84,Negative
+F,1.6,0.61,Negative
+F,2.2,0.96,Negative
+F,1.7,0.7,Negative
+F,1.5,0.92,Negative
+F,3.5,1.79,Negative
+F,1.3,1.07,Negative
+F,1.8,1.29,Negative
+F,1.4,0.7,Negative
+F,2.8,1.28,Negative
+F,1.7,0.88,Negative
+F,1.6,0.92,Negative
+F,1.7,0.83,Negative
+F,1.1,0.8,Negative
+F,4.1,1.71,Negative
+F,6.7,1.73,Negative
+F,1.3,1.15,Negative
+F,1.6,1.06,Negative
+F,2.4,1.14,Negative
+F,1.6,1.07,Negative
+F,3.2,1,Negative
+F,1.8,0.71,Negative
+F,1.9,0.78,Negative
+F,2.4,0.78,Negative
+F,2,0.99,Negative
+F,2.1,0.92,Negative
+F,1.3,0.86,Negative
+F,1.4,0.98,Negative
+F,1.9,0.76,Negative
+F,2.6,1.01,Negative
+F,0.6,1.12,Negative
+F,1.9,1.06,Negative
+F,1.2,0.87,Negative
+F,1.4,1.12,Negative
+F,1.4,1.14,Negative
+F,2,0.95,Negative
+F,2.4,1.06,Negative
+F,1.7,0.93,Negative
+F,2,1,Negative
+F,2.8,0.8,Negative
+F,2.1,1.02,Negative
+F,7.6,1.04,Negative
+F,1.6,0.9,Negative
+F,1.7,0.72,Negative
+F,1.2,0.94,Negative
+F,2.8,1.01,Negative
+F,0.4,0.95,Negative
+F,2,0.94,Negative
+F,1.3,0.55,Negative
+F,1.2,0.98,Negative
+F,1.8,0.84,Negative
+F,2.4,0.98,Negative
+F,2.5,1.01,Negative
+F,3,1.14,Negative
+F,2.7,1.65,Negative
+F,1.6,1.11,Negative
+F,2.1,1.05,Negative
+F,1.6,0.94,Negative
+F,2.4,0.83,Negative
+F,1.5,0.92,Negative
+F,2.4,1.07,Negative
+F,0.8,0.86,Negative
+F,1.2,1.11,Negative
+F,3.2,0.99,Negative
+F,1.2,0.83,Negative
+F,2.8,1.1,Negative
+F,2,0.98,Negative
+F,1.5,0.94,Negative
+F,2.1,1.07,Negative
+F,1.3,0.89,Negative
+F,2.6,1.06,Negative
+F,2.7,0.9,Negative
+F,0.9,1.07,Negative
+F,3.9,1.36,Negative
+F,2.4,1.2,Negative
+F,1.2,0.94,Negative
+F,2.1,0.96,Negative
+F,1.6,0.98,Negative
+F,1.6,0.88,Negative
+F,2.1,1.02,Negative
+F,2,0.92,Negative
+F,1.3,0.94,Negative
+F,1.8,0.74,Negative
+F,1.3,1.11,Negative
+F,2.2,0.98,Negative
+F,1.9,0.66,Negative
+F,2.5,0.78,Negative
+F,2.9,0.95,Negative
+F,1.4,0.72,Negative
+F,2.6,1.24,Negative
+F,1.3,1.07,Negative
+F,1.9,0.95,Negative
+F,1.7,0.87,Negative
+F,2.4,1.09,Negative
+F,1.5,0.92,Negative
+F,2.1,1.08,Negative
+F,2.7,0.74,Negative
+F,1.8,0.89,Negative
+F,3.9,1.88,Negative
+F,1,0.8,Negative
+F,3.5,0.98,Negative
+F,2.2,0.92,Negative
+F,2.7,1.1,Negative
+F,1.6,0.75,Negative
+F,2,0.7,Negative
+F,1.2,0.93,Negative
+F,1.4,0.97,Negative
+F,1.9,1.19,Negative
+F,7.3,1.09,Negative
+F,1.3,0.74,Negative
+F,1.2,0.88,Negative
+F,2,0.97,Negative
+F,2.7,1.08,Negative
+F,1.6,1.06,Negative
+F,2.6,1.02,Negative
+F,2.2,0.89,Negative
+F,1.6,0.96,Negative
+F,4.1,1.65,Negative
+F,1.2,0.94,Negative
+F,1.3,0.85,Negative
+F,2.8,1.39,Negative
+F,1.3,0.84,Negative
+F,2.8,0.88,Negative
+F,2.6,1.53,Negative
+F,0.9,0.94,Negative
+T,2.3,1.03,Negative
+F,2.3,1.17,Negative
+F,2,0.94,Negative
+F,1.8,1.01,Negative
+F,1.9,0.88,Negative
+F,1.7,1.01,Negative
+F,1.4,0.81,Negative
+F,1.4,1.03,Negative
+F,1.1,0.9,Negative
+F,0.4,1,Negative
+F,1.7,0.96,Negative
+F,3.3,1.67,Negative
+T,1,0.86,Negative
+F,1.8,0.87,Negative
+F,1.1,0.83,Negative
+F,1.7,0.68,Negative
+F,2,0.76,Negative
+F,1.7,1.02,Negative
+F,3,1.33,Negative
+F,2.3,1.03,Negative
+F,2.5,0.85,Negative
+F,2.9,0.97,Negative
+F,2.4,0.96,Negative
+F,1,1.08,Negative
+F,1.5,0.92,Negative
+F,2.2,1.03,Negative
+F,1.5,0.6,Negative
+F,7.3,1.09,Negative
+F,2.1,0.76,Negative
+F,2,1.12,Negative
+F,2.1,0.93,Negative
+F,2,1.08,Negative
+F,1.6,0.99,Negative
+F,1.6,0.91,Negative
+F,1.8,1.13,Negative
+F,1.3,0.72,Negative
+T,1.6,0.89,Negative
+F,1.6,1.01,Negative
+F,2.4,1.09,Negative
+F,2.1,0.88,Negative
+F,0.4,1,Negative
+F,1.8,1.13,Negative
+F,2.9,1.62,Negative
+F,2.2,1.43,Negative
+F,2.1,1.15,Negative
+F,1.8,0.94,Negative
+F,1.4,0.86,Negative
+F,2.4,1.06,Negative
+F,1.6,1.02,Negative
+F,1.7,0.99,Negative
+F,0.7,0.55,Negative
+F,1.2,1.09,Negative
+F,1.1,0.59,Negative
+F,3.5,1.43,Negative
+F,2.3,0.9,Negative
+F,2.5,0.96,Negative
+F,1.5,0.85,Negative
+F,1.9,0.98,Negative
+F,4.4,1.11,Negative
+T,3,1.29,Negative
+F,4.5,1.37,Negative
+F,1.7,0.9,Negative
+F,2.6,1.09,Negative
+F,2.2,1.01,Negative
+F,1.8,1.03,Negative
+F,1.7,0.87,Negative
+F,2.3,1.01,Negative
+F,1.9,0.98,Negative
+F,2.7,1.17,Negative
+F,1.8,0.99,Negative
+F,1.8,0.95,Negative
+F,2.1,0.89,Negative
+F,2.2,1.28,Negative
+F,1.7,0.88,Negative
+F,1.9,1.07,Negative
+F,1.7,0.86,Negative
+F,1.2,0.92,Negative
+F,2.9,1.32,Negative
+F,1.6,1.12,Negative
+F,2.1,1.1,Negative
+F,3,1.79,Negative
+F,2.1,1.19,Negative
+F,1.9,1.1,Negative
+F,1.4,1.13,Negative
+F,3.6,1.76,Negative
+F,1.9,0.86,Negative
+F,1.2,0.94,Negative
+F,2.2,0.94,Negative
+F,2.6,1.11,Negative
+F,2.1,1.06,Negative
+F,2.2,1.4,Negative
+F,1.8,0.64,Negative
+F,1.9,1.02,Negative
+F,1.7,0.96,Negative
+F,1.3,1.03,Negative
+F,2.3,0.88,Negative
+F,1.7,1,Negative
+F,1.2,0.76,Negative
+F,1.9,0.69,Negative
+F,1.6,1.04,Negative
+F,2.1,1.11,Negative
+F,0.6,0.68,Negative
+F,1.4,1.11,Negative
+F,5.1,1,Negative
+T,2.9,1.02,Negative
+F,1.2,1.23,Negative
+F,1.5,0.85,Negative
+F,1.9,0.92,Negative
+F,3.1,1.05,Negative
+F,0.3,1.2,Negative
+F,2.6,1.1,Negative
+F,1.3,0.9,Negative
+F,2.9,0.93,Negative
+F,2.2,0.76,Negative
+F,2.6,1.12,Negative
+F,1.3,0.93,Negative
+F,4.3,1.62,Negative
+F,1.6,1.25,Negative
+F,2,1.13,Negative
+F,1.5,1.03,Negative
+F,1.9,1,Negative
+F,1.6,0.66,Negative
+F,1.8,0.93,Negative
+F,2.8,1.23,Negative
+F,1.7,0.9,Negative
+F,0.7,1,Negative
+F,1.5,0.78,Negative
+F,1.9,0.97,Negative
+F,1.8,0.92,Negative
+F,1.2,0.85,Negative
+F,3.1,1.8,Negative
+F,1.7,0.96,Negative
+F,2.8,1.36,Negative
+F,1.5,0.83,Negative
+F,1.8,1.13,Negative
+F,2.2,1.13,Negative
+F,0.6,0.78,Negative
+F,2,0.96,Negative
+F,1.2,1.21,Negative
+F,2.2,0.81,Negative
+F,2.1,1.06,Negative
+F,1.9,0.62,Negative
+F,2.1,1.03,Negative
+F,1.9,1.05,Negative
+F,3.1,1.43,Negative
+T,1.9,0.81,Negative
+F,1.7,0.71,Negative
+F,1.7,0.92,Negative
+F,2,0.87,Negative
+F,1.4,1.07,Negative
+F,7,1.77,Negative
+F,2,0.89,Negative
+F,2.3,1.03,Negative
+F,1.2,1.07,Negative
+F,2.1,0.91,Negative
+F,2,0.94,Negative
+F,1.6,1.11,Negative
+F,1.9,1.19,Negative
+F,1.7,0.96,Negative
+F,1.5,0.84,Negative
+T,0.05,0.52,Negative
+F,1.8,0.94,Negative
+F,2.8,1.46,Negative
+F,1.7,0.93,Negative
+F,2.7,1.31,Negative
+F,1.2,0.75,Negative
+F,2.9,0.81,Negative
+F,2,0.85,Negative
+F,0.6,0.46,Negative
+F,1.7,0.99,Negative
+F,1.8,1.38,Negative
+F,1.8,1.01,Negative
+F,2.9,0.64,Negative
+F,1.3,0.81,Negative
+F,1.5,1.05,Negative
+F,1.7,1,Negative
+F,1.6,0.96,Negative
+F,3,1.65,Negative
+F,1.4,0.83,Negative
+F,1.5,0.99,Negative
+F,1.7,0.96,Negative
+F,1.9,0.95,Negative
+F,1.5,1.17,Negative
+F,1.4,1.08,Negative
+F,1.8,0.71,Negative
+F,1.5,1.12,Negative
+F,2.2,0.77,Negative
+F,1.8,1.1,Negative
+F,0.2,0.98,Negative
+F,2.4,0.84,Negative
+F,2.3,1.09,Negative
+F,2,1.01,Negative
+F,4.1,1.48,Negative
+F,2.2,0.98,Negative
+F,0.9,0.84,Negative
+F,2.3,1.06,Negative
+F,1.4,0.94,Negative
+F,1.5,0.8,Negative
+F,2.5,0.84,Negative
+F,1.2,1.02,Negative
+F,3.6,1.56,Negative
+F,1.7,0.79,Negative
+F,1.8,0.91,Negative
+F,2.2,0.95,Negative
+F,1.6,0.87,Negative
+F,1.5,0.84,Negative
+F,2.2,0.84,Negative
+F,2.1,1.12,Negative
+F,2.2,1.04,Negative
+F,1.4,0.98,Negative
+F,1,0.96,Negative
+F,0.4,1.19,Negative
+F,1.4,0.82,Negative
+F,2.1,0.97,Negative
+F,1.7,0.94,Negative
+F,1.3,0.89,Negative
+F,2.4,0.9,Negative
+F,1.7,0.85,Negative
+F,1.1,0.95,Negative
+F,2,0.98,Negative
+F,1.6,1,Negative
+F,0.4,0.61,Negative
+F,1.3,1.11,Negative
+F,2.4,0.91,Negative
+F,2.3,0.93,Negative
+F,2.5,1.57,Negative
+F,1.9,0.97,Negative
+F,1.3,0.99,Negative
+F,2.4,0.91,Negative
+F,2.7,0.89,Negative
+F,2.3,1.21,Negative
+F,2.2,0.87,Negative
+F,1.4,0.85,Negative
+F,1.3,0.82,Negative
+F,1.2,0.87,Negative
+F,2.9,1.1,Negative
+F,1.8,0.87,Negative
+F,1.7,0.87,Negative
+F,1.6,1.11,Negative
+F,1.2,0.9,Negative
+F,1.8,0.83,Negative
+F,1.9,0.67,Negative
+F,1.6,0.92,Negative
+F,2.6,1.34,Negative
+F,0.6,0.92,Negative
+F,1.4,0.75,Negative
+F,1.6,0.7,Negative
+F,1.4,0.74,Negative
+F,2.2,1.1,Negative
+F,1.8,1.12,Negative
+F,4.5,2.03,Negative
+F,1.5,0.88,Negative
+F,1.2,0.79,Negative
+F,1.9,1,Negative
+F,1.3,0.89,Negative
+F,1.8,0.92,Negative
+F,2,0.89,Negative
+F,1.8,0.83,Negative
+F,4.2,0.99,Negative
+F,1.6,0.88,Negative
+F,2.2,0.96,Negative
+T,2,0.86,Negative
+F,1.8,0.82,Negative
+F,2.3,0.96,Negative
+F,1.5,1.2,Negative
+F,2.6,1.01,Negative
+F,0.2,1.09,Negative
+F,1.2,0.75,Negative
+F,1.7,0.99,Negative
+F,2.4,1.12,Negative
+F,0.2,0.94,Negative
+F,2.2,1.16,Negative
+F,1.3,0.7,Negative
+F,0.6,0.9,Negative
+F,2.4,1.09,Negative
+F,1.7,1.03,Negative
+F,1.6,1.12,Negative
+F,2.4,1.07,Negative
+F,2.5,1.05,Negative
+F,2.2,0.97,Negative
+F,1.4,0.87,Negative
+F,2.1,1.34,Negative
+F,2.6,1.17,Negative
+F,1.6,0.89,Negative
+F,1.8,1.18,Negative
+F,1.8,0.95,Negative
+F,3.1,1.23,Negative
+F,2,1.01,Negative
+F,1.8,0.98,Negative
+F,3,0.96,Negative
+F,1.8,0.77,Negative
+F,1.6,0.97,Negative
+F,0.8,0.86,Negative
+F,2.8,1.05,Negative
+F,2,0.98,Negative
+F,2.2,0.85,Negative
+F,1.7,0.86,Negative
+F,2.3,0.98,Negative
+F,0.5,0.89,Negative
+F,1.4,0.65,Negative
+F,1.3,1,Negative
+F,2.2,0.92,Negative
+F,3.9,1.71,Negative
+F,2,1.41,Negative
+F,2.4,0.98,Negative
+T,1.4,0.95,Negative
+F,2.3,0.98,Negative
+F,3.2,1.57,Negative
+F,1.9,0.97,Negative
+F,2.5,1.3,Negative
+F,1.4,1.12,Negative
+F,1.5,1.06,Negative
+F,3.4,1.08,Negative
+F,1.9,1.03,Negative
+F,3.9,1.28,Negative
+F,1.9,0.94,Negative
+F,1.4,1.01,Negative
+F,2.1,1.31,Negative
+F,1.5,0.75,Negative
+F,2.3,1.08,Negative
+F,2.1,0.86,Negative
+F,2.1,1,Negative
+F,1.6,0.8,Negative
+F,0.5,1.04,Negative
+F,1.9,0.92,Negative
+F,2.1,1.05,Negative
+F,0.3,1.14,Negative
+T,1.4,1.08,Negative
+F,3.4,1.14,Negative
+F,1.8,0.92,Negative
+T,1,1.04,Negative
+F,1.8,0.92,Negative
+F,3.6,1.02,Negative
+F,2.2,1.01,Negative
+F,0.2,0.99,Negative
+F,1.7,0.89,Negative
+F,3.6,0.84,Negative
+F,2.5,1.02,Negative
+F,2.1,1,Negative
+F,0.9,0.84,Negative
+F,1.4,0.93,Negative
+T,3.8,1.14,Negative
+F,1.6,0.87,Negative
+F,2,1.19,Negative
+F,1.7,0.91,Negative
+F,1.3,1.03,Negative
+F,1.9,1.02,Negative
+F,1.2,0.94,Negative
+F,1.6,0.86,Negative
+F,0.8,1.19,Negative
+F,4.3,0.82,Negative
+F,1.7,0.98,Negative
+F,2.6,1.03,Negative
+F,1.5,0.94,Negative
+F,3.2,0.97,Negative
+F,1.6,1.96,Negative
+F,3.9,1.23,Negative
+F,3.5,0.9,Negative
+F,1.1,1.02,Negative
+F,1.6,0.86,Negative
+F,2.6,1.08,Negative
+F,2,1.15,Negative
+F,3.7,1.34,Negative
+F,1.6,0.62,Negative
+F,2.2,1.12,Negative
+F,1.5,0.8,Negative
+F,3.1,1.43,Negative
+F,1.4,0.94,Negative
+F,3.5,0.78,Negative
+F,2,0.99,Negative
+F,2.8,0.9,Negative
+F,2.3,0.93,Negative
+F,4.1,1.66,Negative
+F,2.6,1.13,Negative
+F,1.7,0.83,Negative
+F,1.3,0.88,Negative
+F,3.2,1.12,Negative
+F,1.7,0.96,Negative
+F,1.6,0.88,Negative
+F,2,0.91,Negative
+F,1.8,0.92,Negative
+F,4.2,1.1,Negative
+F,0.2,1.06,Negative
+F,1.9,1.08,Negative
+F,2.4,1.12,Negative
+F,0.8,0.85,Negative
+F,1.6,0.98,Negative
+F,2.3,0.97,Negative
+F,1.9,0.97,Negative
+F,2.2,1.4,Negative
+F,1.9,1.21,Negative
+F,0.7,0.93,Negative
+F,1.8,0.94,Negative
+F,1.8,0.98,Negative
+F,1.4,1.01,Negative
+F,2.7,0.69,Negative
+F,1.9,0.99,Negative
+F,2.3,0.8,Negative
+F,1.3,1.15,Negative
+F,4.3,1.35,Negative
+F,3.1,1.59,Negative
+F,0.5,1.05,Negative
+F,3.6,1.75,Negative
+F,0.9,0.47,Negative
+F,3.1,1.79,Negative
+F,2.3,0.9,Negative
+F,3.4,1.43,Negative
+F,6.2,1.04,Negative
+F,1.2,1.1,Negative
+F,2.6,0.98,Negative
+F,1.2,0.77,Negative
+F,2.5,0.82,Negative
+F,1.8,0.77,Negative
+F,1.7,1.03,Negative
+T,2.2,0.96,Negative
+F,3.8,1.73,Negative
+F,2.6,0.94,Negative
+F,2.5,1.03,Negative
+F,2.1,0.74,Negative
+F,2.6,1.44,Negative
+F,2,1.01,Negative
+F,1,1.17,Negative
+F,1.5,0.93,Negative
+F,1.4,0.92,Negative
+F,1.7,0.77,Negative
+F,1.6,0.89,Negative
+F,1.9,0.84,Negative
+F,2.1,0.93,Negative
+F,0.6,0.86,Negative
+F,1.4,1.12,Negative
+F,2.3,0.91,Negative
+F,0.4,0.83,Negative
+F,1.8,0.92,Negative
+F,1.3,1.12,Negative
+F,2.3,0.91,Negative
+F,1.9,0.93,Negative
+F,2.3,0.96,Negative
+F,2.8,1,Negative
+F,1.7,1,Negative
+F,1.2,1.45,Negative
+F,2,0.87,Negative
+F,1.7,0.99,Negative
+F,5,1.69,Negative
+F,2.4,1.03,Negative
+F,2,0.93,Negative
+F,2.3,1.04,Negative
+F,1.4,1.14,Negative
+F,1.9,0.98,Negative
+F,2,1.02,Negative
+F,2,1.04,Negative
+F,4.3,1.64,Negative
+F,4.3,1.07,Negative
+F,1.9,1,Negative
+F,2.2,1.29,Negative
+F,7.6,1.01,Negative
+F,2.2,1.29,Negative
+F,0.7,1.53,Negative
+F,1.5,0.67,Negative
+F,1.4,0.96,Negative
+F,2,0.98,Negative
+F,1.4,0.97,Negative
+T,0.8,0.74,Negative
+T,4.5,1.49,Negative
+F,1.6,0.93,Negative
+F,4.6,1.55,Negative
+F,1.9,1.03,Negative
+F,2.1,1.05,Negative
+F,2.1,0.79,Negative
+F,2.2,0.99,Negative
+F,2,0.98,Negative
+F,1.8,1.05,Negative
+F,3.2,1.68,Negative
+F,1.7,1.06,Negative
+F,3.4,0.82,Negative
+F,1.5,1.03,Negative
+F,0.2,1,Negative
+F,0.5,1.19,Negative
+F,1.7,1.06,Negative
+F,1.6,0.99,Negative
+F,4.5,1.72,Negative
+F,1.6,0.7,Negative
+F,2.3,0.96,Negative
+F,2,1.01,Negative
+F,2.6,1.55,Negative
+F,1.6,1.09,Negative
+F,3.1,0.91,Negative
+F,4.3,1.68,Negative
+F,1.8,0.93,Negative
+F,0.5,1.24,Negative
+F,1.7,0.86,Negative
+F,2.1,1.44,Negative
+F,2.5,1.1,Negative
+F,0.9,1.07,Negative
+F,0.4,1.24,Negative
+F,2.4,1.13,Negative
+F,3.7,1.62,Negative
+F,2.3,1.03,Negative
+F,2.3,1.03,Negative
+F,1.8,1.09,Negative
+F,1.6,0.96,Negative
+F,2,0.65,Negative
+F,4.4,1.44,Negative
+F,2.2,0.98,Negative
+F,1.3,1.17,Negative
+F,1.5,0.9,Negative
+F,2.2,1.11,Negative
+F,2.9,1.76,Negative
+F,1,1.01,Negative
+F,0.9,0.84,Negative
+F,1.7,0.98,Negative
+F,1.7,0.9,Negative
+F,2.4,1.68,Negative
+F,1.7,0.8,Negative
+F,3,0.67,Negative
+F,2.6,0.78,Negative
+F,1.4,0.87,Negative
+F,2.5,1.36,Negative
+F,1.8,0.68,Negative
+F,2.9,1.19,Negative
+F,1.7,0.86,Negative
+F,7.6,0.86,Negative
+F,1.9,1.13,Negative
+F,2.2,0.96,Negative
+F,1.9,0.8,Negative
+F,2.3,1.25,Negative
+F,2.2,0.83,Negative
+F,1.7,0.98,Negative
+F,1.9,0.94,Negative
+F,0.7,0.96,Negative
+F,2.2,1.1,Negative
+F,2.7,1.28,Negative
+F,1.5,1.08,Negative
+F,1.7,0.99,Negative
+F,2.2,0.97,Negative
+F,2.1,1.08,Negative
+F,2.1,0.87,Negative
+F,1.7,0.91,Negative
+F,1.5,0.83,Negative
+F,3.7,0.95,Negative
+F,1.2,0.94,Negative
+F,3.9,1.28,Negative
+F,1.1,0.86,Negative
+F,3.1,1.77,Negative
+F,2.4,0.93,Negative
+F,1.7,0.8,Negative
+F,1.2,1.03,Negative
+F,2.4,1.48,Negative
+F,2,1.02,Negative
+F,1.6,0.81,Negative
+F,1.5,0.7,Negative
+T,2.5,0.96,Negative
+F,1.5,0.96,Negative
+F,2.8,0.97,Negative
+F,1.4,0.85,Negative
+F,2,1.04,Negative
+F,2.9,1.02,Negative
+T,1,0.56,Negative
+F,1.6,1,Negative
+F,2.1,0.85,Negative
+F,2.1,0.98,Negative
+F,2.6,0.91,Negative
+F,1.7,0.78,Negative
+F,1.4,0.97,Negative
+F,1.9,1.04,Negative
+F,2.5,1.16,Negative
+F,2.6,1.05,Negative
+T,1.9,1.11,Negative
+F,1.9,0.76,Negative
+F,1.9,0.85,Negative
+F,0.5,0.67,Negative
+F,2.6,1.08,Negative
+F,1.6,1.08,Negative
+F,2.4,1.21,Negative
+F,1.5,0.86,Negative
+F,1.9,0.94,Negative
+F,2,0.82,Negative
+F,2.3,1.05,Negative
+F,2.3,1.25,Negative
+F,2.5,1.19,Negative
+F,3.4,1.65,Negative
+F,2.2,1.02,Negative
+F,2.9,1.01,Negative
+F,2.2,0.91,Negative
+F,1.5,1.21,Negative
+F,1.6,0.94,Negative
+F,1.7,0.87,Negative
+F,2.3,1.03,Negative
+F,4.7,1.02,Negative
+F,4.6,1.06,Negative
+F,1.2,1.03,Negative
+F,1.7,1.12,Negative
+F,4.5,1.65,Negative
+F,1.2,1,Negative
+F,2,0.85,Negative
+F,1.4,1,Negative
+F,2.5,0.89,Negative
+F,2.1,0.85,Negative
+F,3,1,Negative
+F,0.6,1.48,Negative
+F,1.9,1.02,Negative
+F,3.2,1.56,Negative
+F,1.7,0.68,Negative
+F,0.4,1.05,Negative
+F,2.5,0.98,Negative
+F,3.6,1.69,Negative
+F,2.2,1.13,Negative
+F,1.9,0.98,Negative
+F,1.8,0.9,Negative
+F,2.1,1.01,Negative
+F,1.7,0.84,Negative
+F,2.8,1.09,Negative
+F,1.5,1.12,Negative
+F,1.4,0.93,Negative
+F,2.2,1.16,Negative
+F,1.9,0.88,Negative
+F,1.8,1.04,Negative
+F,1.4,0.64,Negative
+F,2,0.92,Negative
+F,2.8,0.99,Negative
+F,2,0.79,Negative
+F,1.4,1.14,Negative
+F,0.4,0.95,Negative
+F,1.7,0.76,Negative
+F,2.6,1.3,Negative
+F,1.8,0.78,Negative
+F,2.4,0.88,Negative
+F,1.5,1.24,Negative
+F,1.3,0.91,Negative
+F,3.3,1.24,Negative
+F,2.4,1.19,Negative
+F,1.6,1.03,Negative
+T,3,1.38,Negative
+F,1.5,1.03,Negative
+F,2,0.97,Negative
+F,0.4,1.14,Negative
+F,0.3,0.76,Negative
+F,5.5,1.61,Negative
+F,1.7,0.95,Negative
+F,0.9,0.65,Negative
+F,2.2,1.21,Negative
+F,1.1,0.99,Negative
+F,0.4,0.8,Negative
+F,2.2,1,Negative
+F,1.7,0.8,Negative
+F,6.7,1.73,Negative
+F,2.4,1.13,Negative
+F,2.4,1.36,Negative
+F,1.2,0.93,Negative
+T,2.2,0.78,Negative
+F,0.4,0.94,Negative
+F,2.9,0.91,Negative
+F,1.7,1.3,Negative
+F,1.2,1.02,Negative
+F,2,1.01,Negative
+F,1.7,0.96,Negative
+F,2.7,1.15,Negative
+F,2.1,0.99,Negative
+T,1.2,0.84,Negative
+F,2.1,1,Negative
+F,0.5,1.12,Negative
+F,1.8,0.95,Negative
+F,2.6,0.82,Negative
+T,3.8,1.88,Negative
+F,2.7,1.06,Negative
+F,3.5,1.44,Negative
+F,1.8,1.01,Negative
+F,2.5,1.25,Negative
+F,3.7,1.76,Negative
+F,1.6,0.96,Negative
+F,1.8,1.08,Negative
+T,0.7,0.87,Negative
+F,1.4,1.04,Negative
+F,1.3,0.84,Negative
+F,3,1.32,Negative
+F,1.7,0.98,Negative
+F,1.3,0.9,Negative
+F,2.3,0.95,Negative
+F,1.6,0.84,Negative
+F,1.2,0.91,Negative
+F,1.8,0.83,Negative
+F,2.2,0.8,Negative
+F,2.4,0.9,Negative
+F,1.5,0.96,Negative
+F,2.8,1.14,Negative
+F,2.5,1.1,Negative
+F,2.5,0.84,Negative
+F,2.2,0.85,Negative
+F,0.3,1.05,Negative
+F,1.4,1.13,Negative
+F,1.5,0.84,Negative
+F,2.5,1.01,Negative
+F,2.5,1.09,Negative
+F,2.3,0.97,Negative
+F,1.7,0.87,Negative
+F,2.1,1.17,Negative
+F,1.8,0.83,Negative
+F,2.4,1.05,Negative
+F,1.7,0.95,Negative
+F,2.2,0.86,Negative
+F,1.6,1.02,Negative
+F,7,2,Negative
+F,3.1,1.19,Negative
+F,2.2,1.14,Negative
+F,1.2,0.82,Negative
+F,1.7,0.94,Negative
+F,2.1,1.03,Negative
+F,1.6,0.81,Negative
+F,2.6,1.03,Negative
+F,1.6,1.07,Negative
+F,1.8,0.85,Negative
+F,2.1,0.99,Negative
+F,1.9,1.07,Negative
+F,1.8,0.7,Negative
+F,2.1,0.75,Negative
+F,1.3,0.65,Negative
+F,1.9,1.01,Negative
+F,2.4,1.16,Negative
+F,1.4,0.77,Negative
+F,1.9,1.01,Negative
+F,3.6,1.14,Negative
+T,1.9,0.92,Negative
+F,2.6,0.9,Negative
+F,2.6,0.84,Negative
+F,2.9,0.87,Negative
+F,2.2,0.99,Negative
+F,1.8,1.03,Negative
+F,1,1,Negative
+F,0.2,0.83,Negative
+F,1.3,0.86,Negative
+F,3.1,1.4,Negative
+F,3.1,0.9,Negative
+F,3,1.23,Negative
+F,1.6,0.97,Negative
+F,2.3,1.1,Negative
+F,0.4,0.95,Negative
+F,0.2,0.41,Negative
+F,2.2,0.93,Negative
+F,2,0.9,Negative
+F,2.3,0.95,Negative
+F,3.1,1.57,Negative
+F,1.3,0.82,Negative
+F,4,1.57,Negative
+F,3.8,1.52,Negative
+F,1.6,0.79,Negative
+F,1.6,1.05,Negative
+T,2.9,1.03,Negative
+F,1.7,0.69,Negative
+F,2.5,1.01,Negative
+F,3,0.91,Negative
+F,2.6,1.07,Negative
+F,3,1.09,Negative
+F,1.5,0.71,Negative
+F,0.3,1.18,Negative
+F,2.6,1.02,Negative
+F,2.1,1.14,Negative
+F,0.7,0.87,Negative
+F,2.9,1.01,Negative
+F,3,1.29,Negative
+F,1.5,0.9,Negative
+F,0.4,0.85,Negative
+F,1.7,0.93,Negative
+F,2.2,0.76,Negative
+F,1.3,0.77,Negative
+F,1.5,0.86,Negative
+F,2.2,1.06,Negative
+F,1.7,0.91,Negative
+F,1.6,1.05,Negative
+F,2.6,1.32,Negative
+F,2.4,0.94,Negative
+F,2.6,0.84,Negative
+F,2.5,1.16,Negative
+F,1.6,1.1,Negative
+F,1.4,0.91,Negative
+F,0.5,0.67,Negative
+F,2.3,0.67,Negative
+F,1.3,0.91,Negative
+F,1.9,0.91,Negative
+F,2,0.82,Negative
+F,1.2,1.1,Negative
+F,1.7,0.99,Negative
+F,3.6,1.69,Negative
+F,0.3,0.68,Negative
+F,1.3,0.66,Negative
+F,1.2,0.87,Negative
+F,1.8,1.02,Negative
+F,2,1.15,Negative
+F,3.1,1.33,Negative
+F,3.2,1.29,Negative
+F,1.7,0.94,Negative
+F,1.6,1.05,Negative
+F,1.4,0.76,Negative
+F,3,0.89,Negative
+F,2.3,0.86,Negative
+F,2.3,0.84,Negative
+F,2.5,0.95,Negative
+F,2,0.93,Negative
+F,2.4,0.96,Negative
+F,1.6,0,Negative
+F,2.5,1.05,Negative
+F,2.2,1.08,Negative
+F,1.5,0.95,Negative
+F,4,1.56,Negative
+F,1.3,0.83,Negative
+F,1.1,1.02,Negative
+F,2.5,1.02,Negative
+F,2.1,1.24,Negative
+F,1.5,0.98,Negative
+F,2.1,0.94,Negative
+F,2.2,0.85,Negative
+F,1.1,0.98,Negative
+F,2.1,0.86,Negative
+F,1.3,0.98,Negative
+F,2.3,0.82,Negative
+F,4.2,1.65,Negative
+F,2.1,1.05,Negative
+F,2.2,1.05,Negative
+F,1.4,1.12,Negative
+F,1.4,0.89,Negative
+F,2.9,1.28,Negative
+F,0.3,0.93,Negative
+F,2,0.91,Negative
+F,1.8,0.88,Negative
+F,2,1.26,Negative
+F,0.2,1.01,Negative
+F,3.9,1.58,Negative
+F,2.3,0.88,Negative
+F,1.6,0.9,Negative
+F,2.3,0.96,Negative
+F,2.2,0.89,Negative
+T,3.1,1.08,Negative
+F,1.5,0.72,Negative
+F,1.6,1.08,Negative
+F,1.2,0.57,Negative
+F,1.1,1.19,Negative
+F,2.2,0.91,Negative
+F,1.5,0.78,Negative
+F,2,0.9,Negative
+F,1.4,1.03,Negative
+F,3.1,1,Negative
+F,1.4,0.93,Negative
+F,1.4,0.97,Negative
+F,2.3,0.84,Negative
+F,2.6,1.12,Negative
+F,1.3,1.07,Negative
+F,2.2,0.88,Negative
+F,2.1,0.96,Negative
+F,1.3,0.83,Negative
+T,3.4,0.97,Negative
+F,1.7,0.8,Negative
+F,1.9,0.79,Negative
+F,8.1,0.91,Negative
+F,3.1,1.34,Negative
+F,2.2,0.93,Negative
+F,2.9,1.51,Negative
+F,1.1,0.94,Negative
+F,3.8,1.24,Negative
+F,1.9,0.78,Negative
+F,1.9,0.99,Negative
+F,1.2,0.95,Negative
+F,1.5,0.86,Negative
+F,1.4,0.97,Negative
+F,2,0.75,Negative
+F,1.7,0.98,Negative
+F,1.5,0.88,Negative
+F,1.4,1.13,Negative
+F,2,1.17,Negative
+F,1.9,0.9,Negative
+F,1.7,0.71,Negative
+F,2.5,1.08,Negative
+F,2.1,1.04,Negative
+F,1.9,1.14,Negative
+F,3.6,1.22,Negative
+F,1.5,0.79,Negative
+F,2.6,0.99,Negative
+F,2.1,0.89,Negative
+F,1.7,0.99,Negative
+F,2.6,1.19,Negative
+F,3.1,0.9,Negative
+F,1.9,0.89,Negative
+F,1.4,0.68,Negative
+F,1.5,1.16,Negative
+F,3.2,1.05,Negative
+F,1.3,0.89,Negative
+F,1.2,0.87,Negative
+F,2,0.79,Negative
+F,2.4,1.1,Negative
+F,1.7,0.89,Negative
+F,2.7,0.69,Negative
+F,2.3,1.02,Negative
+F,1.3,0.81,Negative
+F,2.2,1.14,Negative
+F,2.1,1.03,Negative
+F,2.1,1.11,Negative
+F,0.2,1.13,Negative
+F,2.3,1.66,Negative
+F,3.3,0.92,Negative
+F,2.1,0.99,Negative
+F,1.8,1.09,Negative
+F,2,0.95,Negative
+F,3.8,1.67,Negative
+F,1.8,0.85,Negative
+F,1.2,1.28,Negative
+F,2.3,0.66,Negative
+F,1.3,1.16,Negative
+F,2.9,1.38,Negative
+F,2,1.03,Negative
+F,1.9,0.99,Negative
+F,2.4,1.02,Negative
+F,2.1,1.01,Negative
+F,2.2,0.93,Negative
+F,1.9,1.09,Negative
+F,1.9,1.03,Negative
+F,1.6,0.84,Negative
+F,2.1,0.96,Negative
+F,1.7,0.99,Negative
+F,1.2,0.81,Negative
+F,2.4,1.09,Negative
+F,2.9,1.02,Negative
+F,2.9,1.58,Negative
+F,2,1.12,Negative
+F,1.9,0.93,Negative
+F,3.8,1.24,Negative
+F,3.7,1.65,Negative
+F,2.2,0.89,Negative
+F,2,0.94,Negative
+F,3,1.23,Negative
+F,1.6,1.02,Negative
+F,1.6,1.01,Negative
+F,1.3,0.94,Negative
+F,2.1,0.97,Negative
+F,2,0.94,Negative
+F,1.6,1.04,Negative
+F,0.4,0.74,Negative
+F,1.9,0.77,Negative
+F,2.1,0.87,Negative
+F,1.5,1.05,Negative
+F,4,1.06,Negative
+F,3.1,1,Negative
+F,4.7,1.83,Negative
+F,1.3,0.89,Negative
+F,2.4,0.89,Negative
+F,2,0.8,Negative
+F,1.6,1.08,Negative
+F,1.2,0.85,Negative
+F,1.5,0.79,Negative
+F,1.6,0.73,Negative
+F,1.5,0.67,Negative
+F,1.7,0.98,Negative
+F,1.7,0.8,Negative
+F,2.4,0.9,Negative
+F,2,1,Negative
+F,1.5,0.53,Negative
+F,1.8,0.76,Negative
+F,2,1.03,Negative
+F,1.3,1.04,Negative
+F,1.7,0.96,Negative
+F,1.2,0.83,Negative
+F,2.3,1.18,Negative
+F,2,0.96,Negative
+F,1,0.91,Negative
+F,2.6,0.96,Negative
+F,3.2,0.94,Negative
+F,1.5,1.06,Negative
+F,1.2,0.75,Negative
+F,1.5,0.95,Negative
+F,2.1,0.96,Negative
+F,2.1,0.87,Negative
+F,2.4,0.96,Negative
+F,1.6,1.02,Negative
+F,1.6,0.54,Negative
+F,1.3,0.77,Negative
+F,2,0.98,Negative
+F,3.3,1.71,Negative
+F,1.8,1.01,Negative
+F,0.3,0.9,Negative
+F,1.2,0.93,Negative
+F,3,0.93,Negative
+F,1.9,1.09,Negative
+F,4.3,1.62,Negative
+F,1.6,1.02,Negative
+F,2.1,0.95,Negative
+F,2.4,1.04,Negative
+F,2,1.18,Negative
+F,3.2,1.73,Negative
+F,1.2,0.83,Negative
+F,2,1,Negative
+F,2.1,1.1,Negative
+F,2.3,1.21,Negative
+F,1.8,1.03,Negative
+T,1.4,0.96,Negative
+F,2.1,0.98,Negative
+F,2.3,1.08,Negative
+F,1.7,1.05,Negative
+F,2,0.88,Negative
+F,1.8,0.93,Negative
+F,1.7,0.75,Negative
+T,1.4,1.07,Negative
+F,1.6,1.04,Negative
+F,2,0.69,Negative
+F,1.8,1.03,Negative
+F,1.6,0.93,Negative
+T,1,0.83,Negative
+F,1.5,0.93,Negative
+F,2.9,0.9,Negative
+F,1.9,0.92,Negative
+F,2.3,0.93,Negative
+F,0.3,1,Negative
+F,2.5,0.98,Negative
+F,2.5,1.63,Negative
+F,1.5,0.71,Negative
+F,1.7,0.94,Negative
+F,1.4,0.82,Negative
+F,1.8,1.01,Negative
+F,1.4,0.81,Negative
+F,1.6,0.82,Negative
+F,2.2,1.03,Negative
+F,2,0.78,Negative
+F,2.2,1.05,Negative
+F,2.1,1.68,Negative
+F,2.1,1.08,Negative
+F,2.1,1.17,Negative
+F,2,0.99,Negative
+F,2,0.84,Negative
+F,4.6,0.85,Negative
+F,0.7,1.24,Negative
+F,5.1,1,Negative
+F,2.1,1.02,Negative
+F,0.6,1.02,Negative
+F,0.2,1.01,Negative
+F,2.8,1.07,Negative
+F,1.6,1.33,Negative
+F,3.2,1.47,Negative
+F,1.5,1.14,Negative
+F,3.4,0.74,Negative
+F,2.1,0.85,Negative
+F,0.7,0.92,Negative
+F,3.1,1.13,Negative
+F,4.2,1.94,Negative
+F,2,1.05,Negative
+F,1.9,0.89,Negative
+F,2.8,1.11,Negative
+F,1.4,0.93,Negative
+F,2.8,1.46,Negative
+F,3.7,0.93,Negative
+F,1.9,0.5,Negative
+F,2.4,0.94,Negative
+F,2.1,0.89,Negative
+F,3.6,1.63,Negative
+F,2,0.78,Negative
+F,2.2,1.01,Negative
+F,2.1,1.1,Negative
+F,2,0.86,Negative
+F,1.6,0.85,Negative
+F,1.7,1.12,Negative
+F,1.7,0.97,Negative
+F,1.8,1,Negative
+F,1.9,1.17,Negative
+F,3.2,1.05,Negative
+F,2.7,0.89,Negative
+F,2.2,0.95,Negative
+F,1.7,0.8,Negative
+F,2.3,0.84,Negative
+F,2,1.05,Negative
+F,1.3,0.88,Negative
+F,1.2,1.11,Negative
+F,1.2,1.5,Negative
+F,1.3,1.27,Negative
+F,1.4,0.7,Negative
+F,4.3,1.06,Negative
+F,2.2,0.87,Negative
+F,1.7,1.07,Negative
+F,1.8,0.87,Negative
+F,2.7,1.2,Negative
+F,1.8,0.86,Negative
+F,1.9,1.1,Negative
+F,2.5,1.11,Negative
+F,1.5,0.72,Negative
+F,1.3,0.77,Negative
+F,1.1,0.68,Negative
+F,1.7,0.76,Negative
+F,1.8,0.92,Negative
+F,1.8,0.69,Negative
+F,2.6,1.15,Negative
+F,1.6,1.23,Negative
+F,3.1,1.57,Negative
+F,1.5,0.77,Negative
+F,1.7,1.13,Negative
+F,2.6,0.95,Negative
+F,2.1,0.89,Negative
+F,1.7,0.87,Negative
+F,2.5,1.33,Negative
+F,0.4,1.19,Negative
+F,2.4,1.01,Negative
+F,1.5,0.71,Negative
+F,2.5,1.09,Negative
+F,2,1.11,Negative
+F,1.8,0.91,Negative
+F,2.3,1.04,Negative
+F,1.6,1.04,Negative
+F,2.4,1.23,Negative
+F,2.7,0.94,Negative
+F,1.2,1.07,Negative
+F,1.6,0.97,Negative
+F,2.1,1.15,Negative
+F,1.3,0.92,Negative
+F,1.5,0.63,Negative
+F,3.9,0.73,Negative
+F,2.2,0.77,Negative
+F,1.8,1.29,Negative
+F,2.5,0.92,Negative
+F,2.1,0.85,Negative
+F,1.7,0.96,Negative
+F,2.3,1.3,Negative
+F,1.5,0.8,Negative
+F,2,0.83,Negative
+F,2.4,1.03,Negative
+F,1.3,0.82,Negative
+F,1.8,0.81,Negative
+F,3.5,0.98,Negative
+F,1.5,1.14,Negative
+F,2.2,0.83,Negative
+F,1.9,1.08,Negative
+T,0.4,0.64,Negative
+F,1.9,0.81,Negative
+F,1.6,0.62,Negative
+F,4.3,0.77,Negative
+F,1.1,0.49,Negative
+F,2.7,0.91,Negative
+F,4.3,1.07,Negative
+F,1.6,0.97,Negative
+F,1.6,0.91,Negative
+F,1.9,0.81,Negative
+F,2.1,1.16,Negative
+F,3.7,1.65,Negative
+F,1.7,0.87,Negative
+F,2,0.94,Negative
+F,3.2,0.74,Negative
+F,1.9,0.89,Negative
+F,1.4,0.79,Negative
+F,1.9,0.92,Negative
+F,2,0.95,Negative
+F,1.8,0.75,Negative
+F,1.1,0.7,Negative
+F,2.2,0.79,Negative
+F,1.1,0.73,Negative
+F,1.2,1.28,Negative
+F,1.8,0.98,Negative
+F,1.8,0.96,Negative
+F,1.6,0.89,Negative
+T,1.1,0.74,Negative
+F,2,1.01,Negative
+F,1.5,0.85,Negative
+F,1.2,0.69,Negative
+F,1.8,0.4,Negative
+F,1.7,0.93,Negative
+F,2.2,0.78,Negative
+F,1.2,0.98,Negative
+F,2,0.91,Negative
+F,1.4,0.83,Negative
+F,2.7,0.93,Negative
+F,3.5,0.99,Negative
+F,1.6,1.07,Negative
+T,1.5,0.9,Negative
+F,1.2,1.03,Negative
+F,2.2,0.91,Negative
+F,3,0.93,Negative
+F,4.2,1.05,Negative
+F,2.7,1.19,Negative
+F,1.4,1.02,Negative
+F,1.5,0.96,Negative
+F,1.6,1.1,Negative
+F,2.2,0.99,Negative
+F,1.9,0.97,Negative
+F,1.8,1.11,Negative
+F,3,1.11,Negative
+T,1.6,1.16,Negative
+F,1.5,1.05,Negative
+F,2.2,0.9,Negative
+F,3,0.89,Negative
+F,3.9,1.7,Negative
+F,1.4,0.82,Negative
+F,2.6,0.96,Negative
+F,2.1,1.01,Negative
+F,1.5,1.14,Negative
+F,1.6,0.88,Negative
+F,1.6,0.95,Negative
+T,0.4,0.64,Negative
+F,1.9,0.9,Negative
+F,1.3,1.38,Negative
+F,2.5,0.83,Negative
+F,2.1,0.72,Negative
+F,1.3,0.59,Negative
+F,2.6,1.19,Negative
+F,2.3,1.05,Negative
+F,2.8,1.66,Negative
+F,2,0.99,Negative
+F,2.2,0.98,Negative
+F,2,0.97,Negative
+F,1.4,0.92,Negative
+F,1.3,0.86,Negative
+F,1.4,0.72,Negative
+F,6.2,0.89,Negative
+F,1.4,1.03,Negative
+F,2.1,1.09,Negative
+F,2.2,0.97,Negative
+F,2.1,0.85,Negative
+F,1.6,1.06,Negative
+F,2.7,0.99,Negative
+F,1.9,1.02,Negative
+F,1.5,0.97,Negative
+F,1.1,0.89,Negative
+F,2.1,1.06,Negative
+F,1.7,1,Negative
+F,1.4,0.83,Negative
+F,1.4,1.06,Negative
+F,2.2,0.98,Negative
+F,2.7,1.11,Negative
+F,1.6,0.99,Negative
+F,4.2,0.7,Negative
+F,1.4,1.01,Negative
+F,1.4,0.76,Negative
+F,1.5,1.07,Negative
+F,2.6,1.16,Negative
+F,2.4,0.96,Negative
+F,1.8,1.01,Negative
+F,2.9,1.52,Negative
+F,1.6,0.82,Negative
+F,1.7,0.68,Negative
+F,2.7,0.98,Negative
+F,2.4,0.99,Negative
+F,2.8,1.35,Negative
+F,1.7,0.76,Negative
+F,1.4,1.09,Negative
+F,2.2,0.81,Negative
+F,1.6,0.53,Negative
+F,1.3,0.85,Negative
+F,4.4,1.76,Negative
+F,4.5,1.37,Negative
+F,1.7,0.85,Negative
+F,2,0.91,Negative
+F,2.8,1.43,Negative
+F,1.7,1.07,Negative
+F,2.6,0.91,Negative
+F,2.5,1.28,Negative
+F,2.5,1.01,Negative
+F,1.4,1.01,Negative
+F,2.5,0.92,Negative
+F,1.3,0.97,Negative
+F,2.5,1.16,Negative
+T,3.1,1.08,Negative
+F,2.3,1.22,Negative
+F,1.3,0.91,Negative
+F,2.1,0.92,Negative
+F,1.8,0.89,Negative
+F,2.5,1,Negative
+F,2.8,1.26,Negative
+F,2.5,1.4,Negative
+F,1.8,0.79,Negative
+F,2.3,1.06,Negative
+F,2.3,1.02,Negative
+F,1.9,0.95,Negative
+F,2.3,0.92,Negative
+F,1.8,0.88,Negative
+F,3.6,1.76,Negative
+F,2.7,1.09,Negative
+F,0.2,0.7,Negative
+F,3.1,0.91,Negative
+F,2,1.01,Negative
+F,1.9,0.83,Negative
+F,1.8,1.18,Negative
+F,1.6,0.94,Negative
+F,1.8,0.83,Negative
+F,3.3,1.14,Negative
+F,2.3,0.85,Negative
+F,2.2,0.92,Negative
+F,2.1,1.16,Negative
+F,2.3,1.04,Negative
+F,4.8,1.14,Negative
+F,2.2,1.01,Negative
+F,2.9,1.12,Negative
+F,1.8,1,Negative
+F,3.8,1.7,Negative
+F,0.6,1.01,Negative
+F,1.9,1.08,Negative
+F,3.4,0.98,Negative
+F,1.7,1.07,Negative
+F,0.9,0.74,Negative
+T,1,1.39,Negative
+F,0.9,0.58,Negative
+F,1.8,0.91,Negative
+F,1.5,0.69,Negative
+F,1.6,0.97,Negative
+F,0.7,1,Negative
+F,1.2,1.06,Negative
+F,3.3,1.52,Negative
+F,1.5,0.88,Negative
+F,2.7,1.25,Negative
+F,1.8,0.99,Negative
+F,0.7,1.11,Negative
+F,1.8,0.99,Negative
+F,2.1,0.91,Negative
+F,3.2,1.05,Negative
+F,1.8,0.97,Negative
+F,3.2,1.74,Negative
+F,2.4,1.07,Negative
+F,2.2,1.29,Negative
+F,2,1,Negative
+F,1.5,0.9,Negative
+T,1.2,0.89,Negative
+F,2.5,1.15,Negative
+F,2.4,0.8,Negative
+F,1.8,0.75,Negative
+F,2.5,1.18,Negative
+F,2.7,1.08,Negative
+F,1.5,0.98,Negative
+F,2,0.82,Negative
+F,2,0.81,Negative
+F,1.2,0.9,Negative
+F,1.8,0.86,Negative
+F,2.1,1.05,Negative
+F,2.3,1.26,Negative
+F,2.6,1.03,Negative
+F,3.1,1.06,Negative
+F,1.4,1.18,Negative
+F,0.5,1.27,Negative
+F,2.5,1.44,Negative
+F,2.3,0.95,Negative
+F,1.4,0.79,Negative
+F,1,0.79,Negative
+F,1.9,0.91,Negative
+F,2,0.96,Negative
+F,2.3,0.99,Negative
+F,1.7,1.1,Negative
+F,2.3,0.99,Negative
+F,2.2,0.98,Negative
+F,3.1,1.05,Negative
+F,2.8,1,Negative
+F,2.8,1.73,Negative
+F,2.3,1,Negative
+F,6.6,0.86,Negative
+F,2.1,1.13,Negative
+F,2.8,0.99,Negative
+F,1.5,0.94,Negative
+T,1.1,0.97,Negative
+F,1.3,0.95,Negative
+F,1.5,1.2,Negative
+F,3,0.93,Negative
+F,1.7,0.94,Negative
+F,1.8,1.18,Negative
+F,1.8,0.86,Negative
+F,0.4,0.9,Negative
+F,3.7,1.21,Negative
+F,1.5,1.08,Negative
+F,2.6,0.76,Negative
+F,2.6,1.2,Negative
+F,2.3,1.06,Negative
+F,1.4,0.81,Negative
+F,1.5,1.05,Negative
+F,3.6,1.53,Negative
+F,1.4,1.01,Negative
+F,2.2,1.03,Negative
+T,1.3,0.88,Negative
+F,2.5,0.97,Negative
+F,1.8,0.82,Negative
+F,1.9,0.71,Negative
+F,1.2,0.61,Negative
+F,1.5,1.02,Negative
+F,2.1,0.87,Negative
+F,2.1,0.89,Negative
+F,3.4,1.37,Negative
+F,1.7,0.8,Negative
+F,4.9,1.05,Negative
+F,2.2,1,Negative
+F,2.3,0.75,Negative
+F,2.1,1.1,Negative
+F,1.3,0.69,Negative
+F,2.1,0.99,Negative
+F,0.4,0.98,Negative
+F,2.3,1.01,Negative
+F,1.8,0.85,Negative
+F,3.2,0.94,Negative
+F,1.9,0.9,Negative
+F,2.7,0.93,Negative
+F,1.6,0.91,Negative
+T,3.6,1.18,Negative
+F,1.6,0.97,Negative
+F,2.9,1.03,Negative
+F,3.3,0.95,Negative
+F,2,1,Negative
+F,1.5,0.99,Negative
+F,1.9,1.06,Negative
+F,3.1,1.4,Negative
+F,1.7,1.03,Negative
+F,1.1,1.07,Negative
+T,1.2,0.9,Negative
+F,1.8,1.02,Negative
+F,1.7,0.91,Negative
+F,1.8,1.01,Negative
+F,1.8,0.97,Negative

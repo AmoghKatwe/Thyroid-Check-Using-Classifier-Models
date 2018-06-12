@@ -1,0 +1,2003 @@
+@relation 'Euthyroid Check-weka.filters.unsupervised.attribute.Remove-R2,4-6,9-15,17,19-20'
+
+@attribute Age numeric
+@attribute 'On thyroxine' {F,T}
+@attribute 'Query hypo thyroid' {F,T}
+@attribute 'Query hyper thyroid' {F,T}
+@attribute 'T3 measured' numeric
+@attribute 'T4U measured' numeric
+@attribute Result {'Sick Euthyroid',Negative}
+
+@data
+45,F,F,F,1,0.73,'Sick Euthyroid'
+64,F,F,F,1,0.82,'Sick Euthyroid'
+56,F,F,F,0.8,0.77,'Sick Euthyroid'
+78,T,T,F,0.3,0.95,'Sick Euthyroid'
+80,F,F,F,0.8,0.88,'Sick Euthyroid'
+74,F,F,F,0.7,0.81,'Sick Euthyroid'
+42,F,F,F,1.1,0.73,'Sick Euthyroid'
+89,F,F,F,0.8,0.68,'Sick Euthyroid'
+73,F,F,F,1,0.89,'Sick Euthyroid'
+29,F,F,F,0.9,0.71,'Sick Euthyroid'
+72,F,F,F,0.6,1.06,'Sick Euthyroid'
+70,F,F,F,0.2,0.73,'Sick Euthyroid'
+80,F,F,F,0.8,0.81,'Sick Euthyroid'
+84,F,F,F,1,0.84,'Sick Euthyroid'
+60,F,F,F,1,0.69,'Sick Euthyroid'
+29,F,F,F,1.1,0.92,'Sick Euthyroid'
+76,F,F,F,0.8,0.77,'Sick Euthyroid'
+70,F,F,F,0.3,0.8,'Sick Euthyroid'
+66,F,F,F,0.8,0.77,'Sick Euthyroid'
+31,F,F,F,0.4,0.8,'Sick Euthyroid'
+68,F,F,F,1.1,0.9,'Sick Euthyroid'
+75,F,F,F,1.1,0.8,'Sick Euthyroid'
+61,F,F,F,1,0.93,'Sick Euthyroid'
+72,F,F,F,1,0.79,'Sick Euthyroid'
+60,F,F,F,0.8,0.84,'Sick Euthyroid'
+66,F,F,F,0.8,0.77,'Sick Euthyroid'
+63,F,F,F,0.6,0.84,'Sick Euthyroid'
+58,F,F,F,2.8,0.84,'Sick Euthyroid'
+78,F,F,F,1,0.66,'Sick Euthyroid'
+49,F,F,F,0.8,0.52,'Sick Euthyroid'
+52,F,F,F,1.1,0.92,'Sick Euthyroid'
+30,F,F,F,1.3,0.87,'Sick Euthyroid'
+67,F,F,F,0.8,0.93,'Sick Euthyroid'
+49,F,F,F,0.7,0.79,'Sick Euthyroid'
+11,F,F,F,0.7,0.68,'Sick Euthyroid'
+43,F,F,F,0.8,0.69,'Sick Euthyroid'
+28,F,F,F,0.9,0.84,'Sick Euthyroid'
+54,F,F,F,0.9,0.85,'Sick Euthyroid'
+47,F,F,F,1,0.88,'Sick Euthyroid'
+84,F,F,F,0.9,0.88,'Sick Euthyroid'
+83,F,F,F,0.9,0.76,'Sick Euthyroid'
+24,T,F,F,1,1.01,'Sick Euthyroid'
+66,F,T,F,0.3,0.83,'Sick Euthyroid'
+80,F,F,F,0.7,1.12,'Sick Euthyroid'
+73,F,F,F,1.1,0.89,'Sick Euthyroid'
+30,F,F,F,1,0.9,'Sick Euthyroid'
+74,F,F,F,1,0.79,'Sick Euthyroid'
+74,F,F,F,0.9,0.78,'Sick Euthyroid'
+87,F,F,F,1,0.92,'Sick Euthyroid'
+82,T,F,T,0.2,0.76,'Sick Euthyroid'
+85,F,F,F,1.1,0.85,'Sick Euthyroid'
+68,F,F,F,1.1,0.81,'Sick Euthyroid'
+23,F,F,F,1,0.92,'Sick Euthyroid'
+22,F,F,T,1.3,1.02,'Sick Euthyroid'
+72,F,F,F,0.9,0.92,'Sick Euthyroid'
+69,F,F,F,0.9,0.79,'Sick Euthyroid'
+48,F,F,F,0.4,0.73,'Sick Euthyroid'
+64,F,F,F,0.9,0.95,'Sick Euthyroid'
+75,F,F,F,0.7,0.82,'Sick Euthyroid'
+72,F,F,F,1,0.82,'Sick Euthyroid'
+17,F,F,F,0.5,0.41,'Sick Euthyroid'
+74,F,F,F,0.8,0.73,'Sick Euthyroid'
+57,F,F,F,0.7,0.93,'Sick Euthyroid'
+80,F,F,F,0.6,0.7,'Sick Euthyroid'
+46,F,F,F,0.9,0.79,'Sick Euthyroid'
+74,F,F,F,2.5,1.18,'Sick Euthyroid'
+71,F,F,F,0.3,0.9,'Sick Euthyroid'
+56,F,F,F,0.8,1.12,'Sick Euthyroid'
+62,F,F,F,0.7,0.33,'Sick Euthyroid'
+76,F,F,F,0.9,0.87,'Sick Euthyroid'
+73,F,F,F,1,0.87,'Sick Euthyroid'
+71,F,F,F,1,0.89,'Sick Euthyroid'
+77,F,F,F,0.5,0.58,'Sick Euthyroid'
+71,F,F,F,0.7,0.78,'Sick Euthyroid'
+58,F,F,F,0.9,1.04,'Sick Euthyroid'
+76,F,F,F,0.8,0.99,'Sick Euthyroid'
+37,F,F,F,1,0.67,'Sick Euthyroid'
+35,F,F,F,1,0.89,'Sick Euthyroid'
+75,F,F,F,0.2,0.6,'Sick Euthyroid'
+85,F,F,F,0.1,0.68,'Sick Euthyroid'
+69,F,F,F,0.9,0.98,'Sick Euthyroid'
+77,F,F,F,0.8,0.88,'Sick Euthyroid'
+85,T,T,F,0.6,0.86,'Sick Euthyroid'
+76,F,F,F,0.5,0.85,'Sick Euthyroid'
+61,F,T,F,1,1.05,'Sick Euthyroid'
+70,F,F,F,0.9,0.87,'Sick Euthyroid'
+76,F,F,F,1.1,0.96,'Sick Euthyroid'
+72,F,F,F,1,1.02,'Sick Euthyroid'
+70,F,F,F,1.7,1,'Sick Euthyroid'
+78,F,F,F,1.1,0.92,'Sick Euthyroid'
+73,F,F,F,0.8,0.76,'Sick Euthyroid'
+52,F,F,F,0.8,0.91,'Sick Euthyroid'
+85,F,F,F,0.8,0.64,'Sick Euthyroid'
+66,F,F,F,0.3,0.98,'Sick Euthyroid'
+80,T,F,F,0.8,0.81,'Sick Euthyroid'
+82,F,F,F,0.6,0.86,'Sick Euthyroid'
+69,F,F,F,0.9,0.61,'Sick Euthyroid'
+74,F,F,F,0.9,0.71,'Sick Euthyroid'
+35,F,F,F,1.2,0.78,'Sick Euthyroid'
+21,F,F,F,1.3,1.07,'Sick Euthyroid'
+72,F,F,F,0.3,0.8,'Sick Euthyroid'
+61,F,F,F,1.1,0.75,'Sick Euthyroid'
+62,F,F,T,0.8,0.9,'Sick Euthyroid'
+55,F,F,F,1,0.98,'Sick Euthyroid'
+50,F,T,F,0.6,0.8,'Sick Euthyroid'
+54,F,F,F,1.1,0.81,'Sick Euthyroid'
+84,F,F,F,0.4,0.8,'Sick Euthyroid'
+71,F,F,F,2.8,1.07,'Sick Euthyroid'
+88,F,F,F,0.4,0.73,'Sick Euthyroid'
+75,F,F,F,0.05,1.14,'Sick Euthyroid'
+64,F,F,F,0.2,0.9,'Sick Euthyroid'
+64,F,F,F,1,0.85,'Sick Euthyroid'
+61,F,F,F,0.8,0.75,'Sick Euthyroid'
+16,F,F,F,1.1,0.75,'Sick Euthyroid'
+67,F,F,F,1,0.91,'Sick Euthyroid'
+67,F,F,F,1,0.63,'Sick Euthyroid'
+37,F,F,F,0.7,0.72,'Sick Euthyroid'
+77,F,F,T,0.6,0.57,'Sick Euthyroid'
+75,F,F,F,1.1,1.01,'Sick Euthyroid'
+56,F,F,T,1,0.7,'Sick Euthyroid'
+55,F,F,F,0.9,0.9,'Sick Euthyroid'
+70,F,F,F,0.5,0.75,'Sick Euthyroid'
+80,F,F,F,1,0.64,'Sick Euthyroid'
+71,F,F,F,1.1,1.11,'Sick Euthyroid'
+87,F,F,F,1.1,1.02,'Sick Euthyroid'
+74,F,F,F,0.7,0.77,'Sick Euthyroid'
+76,F,T,F,0.8,0.75,'Sick Euthyroid'
+63,F,F,F,0.6,0.84,'Sick Euthyroid'
+58,F,F,F,1,0.81,'Sick Euthyroid'
+46,F,F,F,0.7,0.77,'Sick Euthyroid'
+75,F,F,F,1.1,1.02,'Sick Euthyroid'
+76,F,F,F,0.9,0.56,'Sick Euthyroid'
+85,F,F,F,1.1,0.98,'Sick Euthyroid'
+84,F,F,F,0.9,0.78,'Sick Euthyroid'
+67,F,F,F,0.7,0.77,'Sick Euthyroid'
+55,F,F,F,0.3,0.54,'Sick Euthyroid'
+53,T,F,F,1.1,0.74,'Sick Euthyroid'
+50,F,F,F,1.1,1.06,'Sick Euthyroid'
+83,F,F,F,0.8,0.78,'Sick Euthyroid'
+48,F,F,F,1,1.02,'Sick Euthyroid'
+73,F,F,F,1.4,1.05,'Sick Euthyroid'
+79,F,F,F,0.9,0.95,'Sick Euthyroid'
+75,F,F,F,0.7,0.82,'Sick Euthyroid'
+68,F,F,F,0.7,0.65,'Sick Euthyroid'
+87,F,F,F,1.1,0.77,'Sick Euthyroid'
+58,F,F,T,2.8,0.84,'Sick Euthyroid'
+60,F,F,F,1,0.82,'Sick Euthyroid'
+57,F,F,F,1.1,0.48,'Sick Euthyroid'
+61,F,F,F,1.1,0.91,'Sick Euthyroid'
+73,F,F,F,0.7,0.93,'Sick Euthyroid'
+63,F,F,F,0.9,0.82,'Sick Euthyroid'
+77,T,F,T,0.4,0.8,'Sick Euthyroid'
+76,F,F,F,0.4,0.86,'Sick Euthyroid'
+43,F,F,F,1.1,0.87,'Sick Euthyroid'
+27,T,T,F,0.9,0.92,'Sick Euthyroid'
+73,F,F,F,1,0.69,'Sick Euthyroid'
+52,T,F,F,1.9,1.41,'Sick Euthyroid'
+67,F,F,F,1.1,0.9,'Sick Euthyroid'
+60,F,F,F,1,0.82,'Sick Euthyroid'
+41,F,F,F,2.2,0.94,'Sick Euthyroid'
+40,T,F,F,0.4,0.73,'Sick Euthyroid'
+86,F,F,F,0.8,0.94,'Sick Euthyroid'
+42,F,F,F,0.7,0.74,'Sick Euthyroid'
+58,F,F,F,0.9,0.78,'Sick Euthyroid'
+83,F,F,F,1.1,0.71,'Sick Euthyroid'
+87,F,F,F,0.9,0.92,'Sick Euthyroid'
+36,F,F,F,1.1,0.6,'Sick Euthyroid'
+73,F,F,F,1,0.87,'Sick Euthyroid'
+82,F,F,F,0.8,0.73,'Sick Euthyroid'
+54,F,F,F,0.8,0.82,'Sick Euthyroid'
+55,F,F,F,1.2,0.89,'Sick Euthyroid'
+19,F,F,F,1.9,0.95,'Sick Euthyroid'
+55,F,F,F,0.8,0.77,'Sick Euthyroid'
+55,F,F,F,0.6,0.55,'Sick Euthyroid'
+58,F,F,F,1.1,0.92,'Sick Euthyroid'
+64,T,F,F,1.1,1.11,'Sick Euthyroid'
+71,F,F,F,0.4,0.95,'Sick Euthyroid'
+44,F,F,F,1.1,0.73,'Sick Euthyroid'
+49,F,F,F,0.8,0.7,'Sick Euthyroid'
+70,F,F,F,2.8,0.96,'Sick Euthyroid'
+76,F,F,F,1.1,0.94,'Sick Euthyroid'
+52,F,F,F,0.7,1.07,'Sick Euthyroid'
+70,T,F,F,0.9,0.83,'Sick Euthyroid'
+70,F,F,F,1,0.75,'Sick Euthyroid'
+76,F,F,F,0.9,0.56,'Sick Euthyroid'
+78,F,F,F,0.7,0.74,'Sick Euthyroid'
+78,F,F,F,1,0.66,'Sick Euthyroid'
+65,F,F,F,0.6,0.59,'Sick Euthyroid'
+93,F,F,F,0.4,0.86,'Sick Euthyroid'
+33,F,F,T,1.5,0.91,'Sick Euthyroid'
+67,T,F,F,0.9,0.68,'Sick Euthyroid'
+40,F,F,F,1.3,0.87,'Sick Euthyroid'
+86,F,F,F,1,0.95,'Sick Euthyroid'
+22,F,F,F,1.8,0.9,'Sick Euthyroid'
+76,F,F,F,0.2,0.29,'Sick Euthyroid'
+37,F,F,F,1,0.67,'Sick Euthyroid'
+82,F,F,F,0.8,0.73,'Sick Euthyroid'
+73,F,F,F,1,0.86,'Sick Euthyroid'
+81,F,F,F,0.8,0.9,'Sick Euthyroid'
+78,F,F,F,1.1,0.92,'Sick Euthyroid'
+70,F,F,F,0.4,0.71,'Sick Euthyroid'
+84,F,F,F,0.5,0.64,'Sick Euthyroid'
+47,F,F,F,1,0.81,'Sick Euthyroid'
+89,F,F,F,0.9,0.8,'Sick Euthyroid'
+62,F,F,F,1,0.98,'Sick Euthyroid'
+85,T,T,F,0.6,0.86,'Sick Euthyroid'
+36,F,F,F,0.9,0.59,'Sick Euthyroid'
+43,F,F,F,0.7,0.92,'Sick Euthyroid'
+79,F,F,F,1.1,0.97,'Sick Euthyroid'
+65,F,F,F,0.9,0.67,'Sick Euthyroid'
+59,F,F,F,0.8,0.73,'Sick Euthyroid'
+71,F,F,F,1,0.97,'Sick Euthyroid'
+72,F,F,F,0.9,0.7,'Sick Euthyroid'
+74,F,F,F,0.9,0.77,'Sick Euthyroid'
+59,F,F,F,1.1,1,'Sick Euthyroid'
+66,F,F,F,1.1,0.84,'Sick Euthyroid'
+77,F,F,F,0.9,0.91,'Sick Euthyroid'
+70,F,F,F,1,1.1,'Sick Euthyroid'
+60,F,F,F,1,0.91,'Sick Euthyroid'
+72,F,F,F,0.9,0.75,'Sick Euthyroid'
+80,F,F,F,1,0.91,'Sick Euthyroid'
+74,F,F,F,0.7,0.8,'Sick Euthyroid'
+51,F,F,F,0.9,0.94,'Sick Euthyroid'
+79,F,F,F,1,0.85,'Sick Euthyroid'
+85,F,T,F,0.6,0.92,'Sick Euthyroid'
+77,F,F,F,2.4,0.9,'Sick Euthyroid'
+89,F,F,F,0.8,0.68,'Sick Euthyroid'
+70,F,F,F,1.1,0.63,'Sick Euthyroid'
+49,F,F,F,0.6,0.54,'Sick Euthyroid'
+73,F,F,F,0.7,0.61,'Sick Euthyroid'
+72,F,F,F,0.6,0.79,'Sick Euthyroid'
+84,F,T,F,0.6,0.67,'Sick Euthyroid'
+66,F,F,F,0.6,0.83,'Sick Euthyroid'
+62,F,F,F,0.8,1.06,'Sick Euthyroid'
+89,F,F,F,0.9,0.8,'Sick Euthyroid'
+49,F,F,F,0.2,0.79,'Sick Euthyroid'
+77,F,F,F,0.6,0.68,'Sick Euthyroid'
+74,F,F,F,0.1,0.48,'Sick Euthyroid'
+20,F,F,F,1.8,0.99,Negative
+29,F,F,F,2.5,0.93,Negative
+66,F,F,T,1.7,0.83,Negative
+62,F,F,F,2.2,0.99,Negative
+72,F,F,F,1.5,0.97,Negative
+45,T,F,F,2.3,1.05,Negative
+72,F,F,F,2.6,1.02,Negative
+51,F,F,F,2.1,0.87,Negative
+28,F,F,F,1.6,1.07,Negative
+24,F,F,F,3,1.25,Negative
+74,F,T,F,1.2,0.83,Negative
+62,F,F,T,1.4,0.88,Negative
+35,F,F,F,2.3,1.04,Negative
+28,F,F,T,4,1.5,Negative
+16,F,F,F,9.8,1.05,Negative
+72,F,F,F,1.4,0.82,Negative
+74,F,F,F,1.4,0.84,Negative
+73,T,T,F,1.3,0.95,Negative
+52,F,F,F,1.7,0.67,Negative
+75,F,F,F,2.3,0.85,Negative
+63,F,T,F,1.1,0.95,Negative
+70,F,T,F,1.6,0,Negative
+34,F,F,F,3.9,1.71,Negative
+51,F,F,F,2.2,1.05,Negative
+58,F,F,F,2.1,1.03,Negative
+77,F,F,F,2.4,1.01,Negative
+33,F,F,F,2.2,0.98,Negative
+75,F,F,F,1.2,0.71,Negative
+66,F,F,F,1.7,0.95,Negative
+92,F,F,F,1.7,1.11,Negative
+75,F,F,F,1.4,0.9,Negative
+67,F,F,F,1.9,1.03,Negative
+72,F,F,F,1.3,0.77,Negative
+28,F,F,F,3.8,1.93,Negative
+58,T,F,F,2.1,0.95,Negative
+18,F,F,F,3,1.32,Negative
+77,F,F,F,1.9,0.96,Negative
+47,F,F,F,2.2,0.97,Negative
+35,F,T,F,2.4,1.11,Negative
+65,F,T,F,1.6,1.1,Negative
+74,F,F,F,1.6,0.87,Negative
+47,F,F,F,1.7,1.09,Negative
+54,F,T,F,2.3,0.77,Negative
+70,F,F,F,1.3,0.66,Negative
+30,T,F,F,2.7,1.68,Negative
+63,F,F,F,2.5,1.06,Negative
+63,T,T,F,1.3,1.05,Negative
+71,F,F,T,4.5,0.82,Negative
+24,F,F,F,0.4,1.04,Negative
+29,F,F,F,2,1.42,Negative
+68,F,F,F,3,1.09,Negative
+27,F,F,F,1.8,1.09,Negative
+62,T,T,F,1.2,0.66,Negative
+29,F,F,T,3.2,1.7,Negative
+28,F,F,F,3.7,1.83,Negative
+69,F,T,F,1.9,1.41,Negative
+65,F,F,F,1.5,1.03,Negative
+77,F,F,T,1.7,0.83,Negative
+72,F,F,F,2.5,1.13,Negative
+61,F,F,F,2.6,1.32,Negative
+49,F,F,F,2,0.97,Negative
+70,T,F,F,1.8,1,Negative
+73,F,F,F,1.2,0.9,Negative
+71,F,T,F,1.5,0.94,Negative
+63,T,F,F,3.4,1.11,Negative
+17,F,F,F,2.3,1.12,Negative
+34,F,F,F,3.3,1.24,Negative
+26,F,F,F,3.7,1.34,Negative
+52,F,F,F,1.8,1.06,Negative
+18,T,T,F,4.3,1.65,Negative
+74,T,F,F,1.6,0.96,Negative
+47,F,F,F,1.3,0.97,Negative
+68,F,F,F,1.3,0.93,Negative
+66,T,F,F,1.6,0.86,Negative
+75,F,F,F,1.1,0.92,Negative
+59,F,F,F,1.7,0.7,Negative
+22,F,F,F,3,1.22,Negative
+50,T,F,F,2.2,1.1,Negative
+71,F,F,F,2,0.95,Negative
+61,T,F,F,1.9,0.75,Negative
+58,F,F,F,2.2,0.86,Negative
+54,T,F,F,1.6,0.71,Negative
+17,F,F,F,1.8,1.04,Negative
+42,F,F,F,2.4,1.05,Negative
+85,F,F,F,1.1,0.88,Negative
+39,F,F,F,2.5,0.94,Negative
+28,F,F,F,1.2,0.82,Negative
+63,F,F,F,1.2,0.83,Negative
+16,F,F,F,1.8,0.9,Negative
+30,T,F,F,3.1,1.74,Negative
+51,F,F,T,1.3,0.69,Negative
+57,F,F,F,1.6,0.78,Negative
+62,F,F,F,0.7,1.03,Negative
+74,F,F,T,2.1,1.08,Negative
+90,F,F,F,1.6,0.99,Negative
+17,F,T,F,1.8,1.03,Negative
+81,F,F,F,2,0.83,Negative
+25,F,F,F,1.9,0.81,Negative
+66,F,F,F,1.3,0.99,Negative
+33,F,F,F,1.9,0.9,Negative
+37,F,F,F,2,1.08,Negative
+63,F,F,F,1.8,0.99,Negative
+34,F,T,F,2.7,1.7,Negative
+65,F,F,F,1.2,0.99,Negative
+40,F,F,F,2.5,1,Negative
+58,T,F,F,2.2,0.92,Negative
+53,F,F,F,3.5,1.05,Negative
+80,F,F,F,1.8,0.89,Negative
+73,T,T,F,1.3,0.95,Negative
+35,F,F,F,0.4,1.08,Negative
+65,F,F,F,1.8,1.16,Negative
+27,F,F,F,2.8,1.06,Negative
+58,F,F,F,2.1,0.94,Negative
+49,F,F,F,2,0.89,Negative
+40,F,F,F,3,0.83,Negative
+41,T,F,F,2.7,0.91,Negative
+57,F,F,F,1.3,0.79,Negative
+23,F,F,F,2.2,0.96,Negative
+55,F,F,F,2.2,0.94,Negative
+13,F,F,F,2.4,1.03,Negative
+81,F,F,F,1.2,1.1,Negative
+86,F,F,F,2,0.62,Negative
+38,F,F,F,2.5,1.19,Negative
+58,F,F,F,1.7,0.85,Negative
+98,T,T,F,1.3,0.99,Negative
+39,F,F,F,3.1,0.88,Negative
+46,T,F,F,0.5,0.72,Negative
+24,F,F,F,3,1.03,Negative
+21,F,F,T,2.7,1.06,Negative
+18,F,T,F,2.4,1.68,Negative
+68,T,F,F,2.1,1.1,Negative
+74,F,F,F,2.3,1.36,Negative
+70,F,F,F,2.1,1,Negative
+28,T,F,T,2.3,1.33,Negative
+84,F,F,F,2,0.79,Negative
+65,F,F,F,1.7,1.02,Negative
+53,F,F,F,1.4,0.48,Negative
+57,T,F,F,4.5,1.04,Negative
+47,F,F,F,2.4,1.07,Negative
+41,F,F,F,2,0.84,Negative
+15,T,F,F,2.3,0.89,Negative
+79,F,F,F,2.9,1.59,Negative
+61,F,F,F,2.2,0.82,Negative
+68,F,F,F,1.5,1.07,Negative
+97,F,F,F,1.3,0.97,Negative
+27,F,F,F,2.8,1.46,Negative
+51,F,F,F,0.6,0.94,Negative
+15,T,F,F,2,0.95,Negative
+30,F,F,F,3.6,1.65,Negative
+32,F,F,F,3.6,1.75,Negative
+34,F,F,F,6.6,0.98,Negative
+72,F,F,F,1.6,1.86,Negative
+27,F,F,F,1.9,0.74,Negative
+59,F,F,F,2.1,1,Negative
+45,F,F,F,1.8,0.71,Negative
+59,F,F,F,1.6,1.07,Negative
+50,F,F,F,1.8,0.97,Negative
+58,F,F,F,2.2,0.78,Negative
+68,F,F,F,2,1.16,Negative
+40,F,F,F,2.2,1.17,Negative
+28,F,F,F,3,1.38,Negative
+80,F,F,F,1.6,0.87,Negative
+84,T,F,F,0.7,0.84,Negative
+59,F,F,F,4.9,0.94,Negative
+47,F,F,F,2,0.95,Negative
+60,F,F,F,1.8,0.99,Negative
+18,T,T,F,2.7,0.89,Negative
+33,F,F,F,2.6,1.43,Negative
+56,F,F,F,3.6,0.93,Negative
+26,F,F,F,2.1,0.85,Negative
+26,F,F,T,2.1,0.88,Negative
+42,F,F,T,8.9,1.62,Negative
+27,F,F,F,4.1,2.01,Negative
+43,F,F,F,2.8,0.94,Negative
+30,F,F,F,2.4,1.23,Negative
+55,F,F,F,1.5,0.95,Negative
+63,F,F,F,2.1,1.01,Negative
+23,T,T,F,3.3,1.34,Negative
+70,F,T,F,1.9,0.94,Negative
+58,F,F,F,1.3,0.85,Negative
+60,F,F,T,2.5,1.02,Negative
+70,F,F,F,2,0.73,Negative
+68,F,F,F,1.5,0.94,Negative
+63,F,F,F,2,1.02,Negative
+65,F,F,F,1.4,0.89,Negative
+41,F,T,F,2,1,Negative
+21,F,F,F,1.8,0.84,Negative
+27,F,T,T,1.7,0.93,Negative
+41,F,F,F,1.8,0.88,Negative
+77,F,F,F,2.1,1.07,Negative
+63,F,F,F,1.3,1.08,Negative
+41,F,F,F,1.9,0.84,Negative
+65,T,F,F,2.4,1.15,Negative
+68,F,F,F,2,0.91,Negative
+33,F,F,F,1.8,0.97,Negative
+32,F,F,F,2.2,1.01,Negative
+20,F,F,F,2.2,0.73,Negative
+28,F,F,F,2,0.89,Negative
+73,T,T,F,1,0.76,Negative
+64,F,F,F,2.4,0.98,Negative
+54,F,F,F,1.9,1.11,Negative
+51,F,F,F,2.1,1.57,Negative
+43,F,F,T,1.9,0.99,Negative
+52,F,F,F,1.5,0.8,Negative
+42,F,F,F,2.5,1.04,Negative
+76,F,F,F,2.9,1.28,Negative
+51,T,F,F,1.6,1.05,Negative
+57,F,F,T,1.9,0.85,Negative
+34,F,F,T,2.3,1.06,Negative
+71,F,F,F,1.4,0.96,Negative
+82,F,T,F,1.3,0.91,Negative
+27,F,F,F,1.3,0.79,Negative
+61,F,F,F,1.9,0.96,Negative
+58,F,F,F,1,0.55,Negative
+71,T,F,F,2.2,1.05,Negative
+75,F,F,T,1.3,0.77,Negative
+65,F,T,F,1.3,0.86,Negative
+57,F,F,F,2.1,0.82,Negative
+86,F,F,F,2.2,0.93,Negative
+33,F,F,F,2.1,1.02,Negative
+42,F,F,F,2.4,0.81,Negative
+22,F,F,F,2.9,1.01,Negative
+60,F,F,F,2.1,1.1,Negative
+79,T,F,F,2.4,0.97,Negative
+52,F,F,F,1.9,0.75,Negative
+44,F,F,F,1.3,0.88,Negative
+65,F,F,F,0.9,0.95,Negative
+87,F,F,F,1.8,0.85,Negative
+79,F,F,F,1.6,1,Negative
+55,T,F,F,2.8,1.66,Negative
+35,F,F,T,1.3,0.84,Negative
+43,F,F,F,1.6,0.61,Negative
+45,F,F,F,2.2,0.96,Negative
+51,F,F,T,1.7,0.7,Negative
+63,F,F,F,1.5,0.92,Negative
+34,F,F,T,3.5,1.79,Negative
+63,F,T,F,1.3,1.07,Negative
+73,F,F,F,1.8,1.29,Negative
+60,F,F,F,1.4,0.7,Negative
+17,F,F,T,2.8,1.28,Negative
+76,F,T,F,1.7,0.88,Negative
+66,F,F,F,1.6,0.92,Negative
+76,F,F,F,1.7,0.83,Negative
+83,F,F,F,1.1,0.8,Negative
+17,F,F,F,4.1,1.71,Negative
+34,T,T,F,6.7,1.73,Negative
+61,F,F,T,1.3,1.15,Negative
+70,T,T,F,1.6,1.06,Negative
+75,F,F,F,2.4,1.14,Negative
+60,F,F,F,1.6,1.07,Negative
+58,F,F,F,3.2,1,Negative
+66,F,F,F,1.8,0.71,Negative
+22,F,F,F,1.9,0.78,Negative
+35,F,F,F,2.4,0.78,Negative
+45,F,F,F,2,0.99,Negative
+63,F,F,F,2.1,0.92,Negative
+64,F,F,F,1.3,0.86,Negative
+51,F,F,F,1.4,0.98,Negative
+51,F,F,F,1.9,0.76,Negative
+41,T,F,F,2.6,1.01,Negative
+74,F,F,F,0.6,1.12,Negative
+28,F,F,F,1.9,1.06,Negative
+55,F,F,F,1.2,0.87,Negative
+28,F,F,F,1.4,1.12,Negative
+62,T,F,F,1.4,1.14,Negative
+15,T,F,F,2,0.95,Negative
+36,F,T,T,2.4,1.06,Negative
+43,F,F,F,1.7,0.93,Negative
+82,F,F,F,2,1,Negative
+24,F,F,F,2.8,0.8,Negative
+59,F,F,F,2.1,1.02,Negative
+60,F,F,F,7.6,1.04,Negative
+64,F,F,F,1.6,0.9,Negative
+36,F,F,F,1.7,0.72,Negative
+24,T,F,F,1.2,0.94,Negative
+84,F,F,F,2.8,1.01,Negative
+35,F,F,F,0.4,0.95,Negative
+32,F,F,F,2,0.94,Negative
+73,F,F,F,1.3,0.55,Negative
+84,F,F,F,1.2,0.98,Negative
+73,F,F,F,1.8,0.84,Negative
+65,F,F,F,2.4,0.98,Negative
+64,F,T,F,2.5,1.01,Negative
+59,T,F,F,3,1.14,Negative
+48,F,F,F,2.7,1.65,Negative
+41,T,T,F,1.6,1.11,Negative
+70,F,F,T,2.1,1.05,Negative
+73,F,F,F,1.6,0.94,Negative
+57,F,F,F,2.4,0.83,Negative
+72,T,F,F,1.5,0.92,Negative
+76,F,F,F,2.4,1.07,Negative
+69,F,F,F,0.8,0.86,Negative
+69,T,F,F,1.2,1.11,Negative
+36,F,F,T,3.2,0.99,Negative
+20,F,T,F,1.2,0.83,Negative
+38,F,F,F,2.8,1.1,Negative
+49,F,F,F,2,0.98,Negative
+62,F,F,F,1.5,0.94,Negative
+53,F,F,F,2.1,1.07,Negative
+57,F,F,F,1.3,0.89,Negative
+60,F,F,F,2.6,1.06,Negative
+54,F,F,F,2.7,0.9,Negative
+73,F,F,F,0.9,1.07,Negative
+34,T,F,F,3.9,1.36,Negative
+53,T,F,F,2.4,1.2,Negative
+74,F,T,F,1.2,0.94,Negative
+28,T,F,F,2.1,0.96,Negative
+45,F,F,F,1.6,0.98,Negative
+76,F,F,F,1.6,0.88,Negative
+63,F,F,F,2.1,1.02,Negative
+38,F,F,F,2,0.92,Negative
+50,T,F,F,1.3,0.94,Negative
+44,F,F,F,1.8,0.74,Negative
+78,T,F,F,1.3,1.11,Negative
+65,T,F,F,2.2,0.98,Negative
+52,F,F,F,1.9,0.66,Negative
+24,F,F,T,2.5,0.78,Negative
+62,F,F,F,2.9,0.95,Negative
+17,F,F,F,1.4,0.72,Negative
+76,F,F,F,2.6,1.24,Negative
+22,F,F,F,1.3,1.07,Negative
+54,F,F,F,1.9,0.95,Negative
+87,F,F,F,1.7,0.87,Negative
+67,F,F,F,2.4,1.09,Negative
+66,F,F,T,1.5,0.92,Negative
+58,F,T,F,2.1,1.08,Negative
+49,F,F,T,2.7,0.74,Negative
+24,F,F,F,1.8,0.89,Negative
+18,F,F,T,3.9,1.88,Negative
+38,F,F,F,1,0.8,Negative
+65,F,F,T,3.5,0.98,Negative
+49,F,F,F,2.2,0.92,Negative
+60,F,F,F,2.7,1.1,Negative
+31,F,F,F,1.6,0.75,Negative
+51,F,F,F,2,0.7,Negative
+70,F,F,F,1.2,0.93,Negative
+68,F,F,F,1.4,0.97,Negative
+67,F,F,F,1.9,1.19,Negative
+41,F,F,T,7.3,1.09,Negative
+64,F,F,F,1.3,0.74,Negative
+62,F,F,F,1.2,0.88,Negative
+60,F,F,F,2,0.97,Negative
+59,F,F,F,2.7,1.08,Negative
+83,F,F,F,1.6,1.06,Negative
+77,F,F,F,2.6,1.02,Negative
+65,F,T,F,2.2,0.89,Negative
+33,F,T,F,1.6,0.96,Negative
+36,F,F,F,4.1,1.65,Negative
+82,F,F,F,1.2,0.94,Negative
+62,T,F,F,1.3,0.85,Negative
+24,F,F,F,2.8,1.39,Negative
+61,F,F,F,1.3,0.84,Negative
+46,F,F,F,2.8,0.88,Negative
+24,F,F,F,2.6,1.53,Negative
+65,F,F,F,0.9,0.94,Negative
+84,F,F,F,2.3,1.03,Negative
+38,F,F,F,2.3,1.17,Negative
+32,T,F,F,2,0.94,Negative
+44,F,T,T,1.8,1.01,Negative
+37,F,F,F,1.9,0.88,Negative
+74,F,F,F,1.7,1.01,Negative
+54,F,F,F,1.4,0.81,Negative
+87,F,F,F,1.4,1.03,Negative
+73,F,F,F,1.1,0.9,Negative
+62,F,F,F,0.4,1,Negative
+27,F,F,F,1.7,0.96,Negative
+20,F,F,F,3.3,1.67,Negative
+62,F,F,F,1,0.86,Negative
+55,F,F,F,1.8,0.87,Negative
+57,F,F,F,1.1,0.83,Negative
+62,F,F,F,1.7,0.68,Negative
+40,F,F,F,2,0.76,Negative
+62,F,F,F,1.7,1.02,Negative
+24,F,F,F,3,1.33,Negative
+45,F,F,F,2.3,1.03,Negative
+48,T,F,F,2.5,0.85,Negative
+18,F,F,F,2.9,0.97,Negative
+17,F,F,F,2.4,0.96,Negative
+48,T,F,F,1,1.08,Negative
+29,T,F,F,1.5,0.92,Negative
+62,T,F,F,2.2,1.03,Negative
+69,F,F,F,1.5,0.6,Negative
+41,F,F,T,7.3,1.09,Negative
+37,T,F,F,2.1,0.76,Negative
+78,F,F,F,2,1.12,Negative
+32,F,F,F,2.1,0.93,Negative
+43,F,F,F,2,1.08,Negative
+40,F,F,F,1.6,0.99,Negative
+19,F,F,F,1.6,0.91,Negative
+77,F,F,F,1.8,1.13,Negative
+41,F,F,F,1.3,0.72,Negative
+53,F,F,F,1.6,0.89,Negative
+54,F,F,F,1.6,1.01,Negative
+85,F,T,F,2.4,1.09,Negative
+45,T,F,F,2.1,0.88,Negative
+62,F,F,F,0.4,1,Negative
+44,T,F,F,1.8,1.13,Negative
+30,T,F,F,2.9,1.62,Negative
+36,T,F,F,2.2,1.43,Negative
+19,F,F,F,2.1,1.15,Negative
+44,F,F,F,1.8,0.94,Negative
+88,F,F,F,1.4,0.86,Negative
+55,F,F,F,2.4,1.06,Negative
+39,T,F,F,1.6,1.02,Negative
+72,F,F,F,1.7,0.99,Negative
+73,F,F,F,0.7,0.55,Negative
+71,F,F,F,1.2,1.09,Negative
+59,F,F,T,1.1,0.59,Negative
+20,F,F,F,3.5,1.43,Negative
+54,F,F,F,2.3,0.9,Negative
+27,F,F,T,2.5,0.96,Negative
+22,F,F,F,1.5,0.85,Negative
+65,F,F,F,1.9,0.98,Negative
+51,F,F,F,4.4,1.11,Negative
+20,F,F,F,3,1.29,Negative
+34,F,F,T,4.5,1.37,Negative
+64,F,F,F,1.7,0.9,Negative
+53,F,F,F,2.6,1.09,Negative
+50,F,F,F,2.2,1.01,Negative
+60,F,F,F,1.8,1.03,Negative
+79,F,T,F,1.7,0.87,Negative
+60,T,F,F,2.3,1.01,Negative
+40,T,F,F,1.9,0.98,Negative
+44,F,F,F,2.7,1.17,Negative
+40,F,F,F,1.8,0.99,Negative
+50,F,F,F,1.8,0.95,Negative
+62,F,F,F,2.1,0.89,Negative
+59,F,F,F,2.2,1.28,Negative
+78,F,F,F,1.7,0.88,Negative
+65,F,F,F,1.9,1.07,Negative
+16,F,F,F,1.7,0.86,Negative
+65,F,F,F,1.2,0.92,Negative
+20,F,F,F,2.9,1.32,Negative
+45,F,F,F,1.6,1.12,Negative
+28,F,F,F,2.1,1.1,Negative
+30,T,F,F,3,1.79,Negative
+20,F,F,F,2.1,1.19,Negative
+78,F,F,F,1.9,1.1,Negative
+19,F,F,F,1.4,1.13,Negative
+29,F,F,F,3.6,1.76,Negative
+41,F,F,F,1.9,0.86,Negative
+24,T,F,F,1.2,0.94,Negative
+59,T,T,F,2.2,0.94,Negative
+20,T,F,F,2.6,1.11,Negative
+54,T,F,F,2.1,1.06,Negative
+60,F,F,F,2.2,1.4,Negative
+32,F,F,F,1.8,0.64,Negative
+74,F,F,F,1.9,1.02,Negative
+70,F,F,T,1.7,0.96,Negative
+75,F,F,F,1.3,1.03,Negative
+29,F,F,F,2.3,0.88,Negative
+73,F,F,F,1.7,1,Negative
+78,F,F,F,1.2,0.76,Negative
+34,F,F,F,1.9,0.69,Negative
+60,T,F,F,1.6,1.04,Negative
+68,F,F,F,2.1,1.11,Negative
+60,F,F,F,0.6,0.68,Negative
+79,F,F,F,1.4,1.11,Negative
+35,F,F,F,5.1,1,Negative
+19,F,F,F,2.9,1.02,Negative
+43,F,F,T,1.2,1.23,Negative
+54,F,F,F,1.5,0.85,Negative
+57,F,F,F,1.9,0.92,Negative
+28,F,F,F,3.1,1.05,Negative
+72,F,F,F,0.3,1.2,Negative
+55,T,F,F,2.6,1.1,Negative
+79,F,F,F,1.3,0.9,Negative
+51,T,F,F,2.9,0.93,Negative
+57,F,F,F,2.2,0.76,Negative
+60,F,T,F,2.6,1.12,Negative
+67,F,F,F,1.3,0.93,Negative
+38,F,F,F,4.3,1.62,Negative
+69,F,F,F,1.6,1.25,Negative
+52,T,F,F,2,1.13,Negative
+62,F,F,F,1.5,1.03,Negative
+45,T,F,F,1.9,1,Negative
+32,F,F,F,1.6,0.66,Negative
+47,F,F,F,1.8,0.93,Negative
+73,F,F,F,2.8,1.23,Negative
+69,F,F,F,1.7,0.9,Negative
+24,F,F,F,0.7,1,Negative
+88,F,F,F,1.5,0.78,Negative
+60,T,F,F,1.9,0.97,Negative
+68,T,F,F,1.8,0.92,Negative
+79,F,F,F,1.2,0.85,Negative
+34,F,F,F,3.1,1.8,Negative
+67,F,F,F,1.7,0.96,Negative
+75,F,F,F,2.8,1.36,Negative
+69,F,T,F,1.5,0.83,Negative
+66,F,F,F,1.8,1.13,Negative
+67,F,T,F,2.2,1.13,Negative
+62,F,F,F,0.6,0.78,Negative
+40,F,T,F,2,0.96,Negative
+31,T,F,F,1.2,1.21,Negative
+33,T,F,F,2.2,0.81,Negative
+55,T,F,F,2.1,1.06,Negative
+66,F,F,F,1.9,0.62,Negative
+69,F,F,F,2.1,1.03,Negative
+72,F,F,F,1.9,1.05,Negative
+40,F,F,F,3.1,1.43,Negative
+57,F,F,F,1.9,0.81,Negative
+43,F,F,F,1.7,0.71,Negative
+38,F,F,F,1.7,0.92,Negative
+24,F,F,F,2,0.87,Negative
+56,F,F,F,1.4,1.07,Negative
+23,F,F,F,7,1.77,Negative
+63,T,F,F,2,0.89,Negative
+63,F,F,F,2.3,1.03,Negative
+68,T,F,F,1.2,1.07,Negative
+46,F,F,F,2.1,0.91,Negative
+56,F,F,F,2,0.94,Negative
+64,F,F,F,1.6,1.11,Negative
+27,F,F,F,1.9,1.19,Negative
+56,F,F,F,1.7,0.96,Negative
+36,F,F,F,1.5,0.84,Negative
+76,F,F,F,0.05,0.52,Negative
+77,F,F,T,1.8,0.94,Negative
+55,F,F,F,2.8,1.46,Negative
+24,F,F,F,1.7,0.93,Negative
+52,F,F,F,2.7,1.31,Negative
+64,F,F,T,1.2,0.75,Negative
+43,F,F,F,2.9,0.81,Negative
+29,F,F,F,2,0.85,Negative
+69,F,F,F,0.6,0.46,Negative
+71,F,F,F,1.7,0.99,Negative
+57,F,F,F,1.8,1.38,Negative
+49,F,F,F,1.8,1.01,Negative
+51,F,F,F,2.9,0.64,Negative
+73,F,F,F,1.3,0.81,Negative
+77,F,T,F,1.5,1.05,Negative
+51,F,F,F,1.7,1,Negative
+64,T,F,T,1.6,0.96,Negative
+18,T,T,F,3,1.65,Negative
+24,F,F,F,1.4,0.83,Negative
+54,F,F,F,1.5,0.99,Negative
+77,F,F,F,1.7,0.96,Negative
+67,F,F,F,1.9,0.95,Negative
+44,F,F,F,1.5,1.17,Negative
+60,F,F,F,1.4,1.08,Negative
+39,F,F,F,1.8,0.71,Negative
+59,F,F,F,1.5,1.12,Negative
+10,F,F,F,2.2,0.77,Negative
+43,F,F,T,1.8,1.1,Negative
+35,F,F,F,0.2,0.98,Negative
+38,F,F,F,2.4,0.84,Negative
+57,T,F,F,2.3,1.09,Negative
+60,F,F,F,2,1.01,Negative
+26,F,F,F,4.1,1.48,Negative
+71,F,F,F,2.2,0.98,Negative
+37,F,T,F,0.9,0.84,Negative
+85,F,F,F,2.3,1.06,Negative
+47,F,F,F,1.4,0.94,Negative
+68,F,F,F,1.5,0.8,Negative
+28,F,F,F,2.5,0.84,Negative
+46,F,F,F,1.2,1.02,Negative
+26,F,F,F,3.6,1.56,Negative
+43,F,F,F,1.7,0.79,Negative
+71,F,F,F,1.8,0.91,Negative
+62,F,F,F,2.2,0.95,Negative
+77,F,F,F,1.6,0.87,Negative
+72,F,F,F,1.5,0.84,Negative
+66,F,F,F,2.2,0.84,Negative
+67,F,F,F,2.1,1.12,Negative
+54,F,F,F,2.2,1.04,Negative
+67,F,F,F,1.4,0.98,Negative
+70,T,T,F,1,0.96,Negative
+79,F,T,F,0.4,1.19,Negative
+82,F,F,F,1.4,0.82,Negative
+19,F,F,T,2.1,0.97,Negative
+45,F,F,F,1.7,0.94,Negative
+27,F,F,F,1.3,0.89,Negative
+37,F,F,F,2.4,0.9,Negative
+57,T,F,F,1.7,0.85,Negative
+63,F,F,T,1.1,0.95,Negative
+38,T,F,F,2,0.98,Negative
+46,F,F,F,1.6,1,Negative
+53,F,F,F,0.4,0.61,Negative
+18,F,F,F,1.3,1.11,Negative
+64,T,F,F,2.4,0.91,Negative
+67,T,F,F,2.3,0.93,Negative
+68,F,F,T,2.5,1.57,Negative
+57,F,F,F,1.9,0.97,Negative
+79,F,F,F,1.3,0.99,Negative
+54,T,F,F,2.4,0.91,Negative
+69,F,T,F,2.7,0.89,Negative
+27,F,F,F,2.3,1.21,Negative
+53,F,F,F,2.2,0.87,Negative
+30,F,F,F,1.4,0.85,Negative
+62,T,T,F,1.3,0.82,Negative
+32,F,T,T,1.2,0.87,Negative
+35,F,F,F,2.9,1.1,Negative
+30,F,F,F,1.8,0.87,Negative
+70,F,F,F,1.7,0.87,Negative
+78,F,F,F,1.6,1.11,Negative
+84,F,F,F,1.2,0.9,Negative
+59,F,F,F,1.8,0.83,Negative
+42,F,F,F,1.9,0.67,Negative
+72,T,F,F,1.6,0.92,Negative
+22,F,F,F,2.6,1.34,Negative
+85,F,T,F,0.6,0.92,Negative
+92,F,F,F,1.4,0.75,Negative
+80,F,F,F,1.6,0.7,Negative
+28,F,F,F,1.4,0.74,Negative
+46,T,F,F,2.2,1.1,Negative
+67,F,F,F,1.8,1.12,Negative
+28,F,F,F,4.5,2.03,Negative
+31,F,F,F,1.5,0.88,Negative
+52,F,F,F,1.2,0.79,Negative
+32,F,F,F,1.9,1,Negative
+70,T,F,F,1.3,0.89,Negative
+33,F,F,F,1.8,0.92,Negative
+78,F,F,F,2,0.89,Negative
+60,T,T,F,1.8,0.83,Negative
+76,F,T,F,4.2,0.99,Negative
+68,F,F,F,1.6,0.88,Negative
+63,F,F,F,2.2,0.96,Negative
+30,F,F,F,2,0.86,Negative
+49,F,F,F,1.8,0.82,Negative
+53,F,F,F,2.3,0.96,Negative
+58,F,F,F,1.5,1.2,Negative
+41,T,F,F,2.6,1.01,Negative
+68,F,F,T,0.2,1.09,Negative
+41,F,F,F,1.2,0.75,Negative
+58,F,F,F,1.7,0.99,Negative
+38,F,F,F,2.4,1.12,Negative
+65,F,F,F,0.2,0.94,Negative
+36,F,F,F,2.2,1.16,Negative
+68,T,F,F,1.3,0.7,Negative
+78,F,T,F,0.6,0.9,Negative
+85,F,T,F,2.4,1.09,Negative
+55,T,F,F,1.7,1.03,Negative
+74,T,F,F,1.6,1.12,Negative
+36,F,F,F,2.4,1.07,Negative
+32,F,F,F,2.5,1.05,Negative
+69,F,F,F,2.2,0.97,Negative
+78,F,F,F,1.4,0.87,Negative
+28,F,F,F,2.1,1.34,Negative
+34,F,F,F,2.6,1.17,Negative
+75,F,F,F,1.6,0.89,Negative
+74,T,F,F,1.8,1.18,Negative
+28,T,F,F,1.8,0.95,Negative
+28,F,F,F,3.1,1.23,Negative
+68,F,F,F,2,1.01,Negative
+53,F,F,F,1.8,0.98,Negative
+41,F,F,F,3,0.96,Negative
+68,F,F,F,1.8,0.77,Negative
+57,F,F,F,1.6,0.97,Negative
+69,F,F,F,0.8,0.86,Negative
+68,F,F,F,2.8,1.05,Negative
+74,F,F,F,2,0.98,Negative
+72,F,F,F,2.2,0.85,Negative
+69,T,F,F,1.7,0.86,Negative
+78,F,F,F,2.3,0.98,Negative
+85,F,T,F,0.5,0.89,Negative
+37,F,F,F,1.4,0.65,Negative
+49,F,F,F,1.3,1,Negative
+38,F,F,F,2.2,0.92,Negative
+34,F,F,F,3.9,1.71,Negative
+27,T,T,T,2,1.41,Negative
+70,F,F,F,2.4,0.98,Negative
+47,F,F,F,1.4,0.95,Negative
+30,F,F,F,2.3,0.98,Negative
+31,F,F,F,3.2,1.57,Negative
+49,F,F,F,1.9,0.97,Negative
+58,F,F,F,2.5,1.3,Negative
+73,F,F,F,1.4,1.12,Negative
+53,F,F,F,1.5,1.06,Negative
+53,T,F,F,3.4,1.08,Negative
+76,F,T,F,1.9,1.03,Negative
+26,F,F,F,3.9,1.28,Negative
+46,F,F,F,1.9,0.94,Negative
+68,F,F,F,1.4,1.01,Negative
+24,F,F,F,2.1,1.31,Negative
+76,F,F,F,1.5,0.75,Negative
+78,F,F,F,2.3,1.08,Negative
+32,F,F,F,2.1,0.86,Negative
+43,F,F,F,2.1,1,Negative
+29,F,F,F,1.6,0.8,Negative
+72,F,F,F,0.5,1.04,Negative
+34,F,F,F,1.9,0.92,Negative
+23,F,F,F,2.1,1.05,Negative
+48,F,F,F,0.3,1.14,Negative
+45,F,F,F,1.4,1.08,Negative
+45,T,F,F,3.4,1.14,Negative
+56,F,F,F,1.8,0.92,Negative
+76,T,F,F,1,1.04,Negative
+78,F,F,F,1.8,0.92,Negative
+59,F,F,F,3.6,1.02,Negative
+31,F,F,F,2.2,1.01,Negative
+34,F,F,F,0.2,0.99,Negative
+54,F,F,F,1.7,0.89,Negative
+57,F,F,F,3.6,0.84,Negative
+27,F,F,T,2.5,1.02,Negative
+36,F,F,F,2.1,1,Negative
+78,F,T,F,0.9,0.84,Negative
+72,F,F,F,1.4,0.93,Negative
+29,F,F,F,3.8,1.14,Negative
+63,F,F,F,1.6,0.87,Negative
+46,T,T,F,2,1.19,Negative
+53,F,F,T,1.7,0.91,Negative
+71,F,F,F,1.3,1.03,Negative
+53,F,F,F,1.9,1.02,Negative
+67,F,F,F,1.2,0.94,Negative
+66,T,F,F,1.6,0.86,Negative
+42,F,F,F,0.8,1.19,Negative
+24,F,F,T,4.3,0.82,Negative
+24,F,F,F,1.7,0.98,Negative
+45,F,F,T,2.6,1.03,Negative
+77,F,F,F,1.5,0.94,Negative
+34,T,F,F,3.2,0.97,Negative
+58,F,F,F,1.6,1.96,Negative
+65,F,F,T,3.9,1.23,Negative
+70,F,F,T,3.5,0.9,Negative
+80,F,F,F,1.1,1.02,Negative
+73,F,F,F,1.6,0.86,Negative
+20,F,F,F,2.6,1.08,Negative
+52,F,F,F,2,1.15,Negative
+32,F,F,F,3.7,1.34,Negative
+56,F,F,F,1.6,0.62,Negative
+72,F,F,F,2.2,1.12,Negative
+35,F,F,F,1.5,0.8,Negative
+40,F,F,F,3.1,1.43,Negative
+75,F,F,F,1.4,0.94,Negative
+40,F,F,F,3.5,0.78,Negative
+57,F,F,F,2,0.99,Negative
+32,T,F,F,2.8,0.9,Negative
+64,T,F,F,2.3,0.93,Negative
+55,T,F,F,4.1,1.66,Negative
+59,F,F,T,2.6,1.13,Negative
+51,F,F,F,1.7,0.83,Negative
+35,F,F,F,1.3,0.88,Negative
+60,F,F,F,3.2,1.12,Negative
+60,T,F,F,1.7,0.96,Negative
+16,T,T,F,1.6,0.88,Negative
+59,T,F,F,2,0.91,Negative
+45,F,T,F,1.8,0.92,Negative
+57,F,F,F,4.2,1.1,Negative
+48,F,F,F,0.2,1.06,Negative
+43,F,F,F,1.9,1.08,Negative
+49,F,F,F,2.4,1.12,Negative
+63,F,F,F,0.8,0.85,Negative
+71,F,T,F,1.6,0.98,Negative
+25,F,F,F,2.3,0.97,Negative
+71,F,F,F,1.9,0.97,Negative
+60,F,F,F,2.2,1.4,Negative
+32,F,F,F,1.9,1.21,Negative
+85,F,T,F,0.7,0.93,Negative
+57,F,F,T,1.8,0.94,Negative
+44,F,F,F,1.8,0.98,Negative
+76,F,F,T,1.4,1.01,Negative
+54,F,F,F,2.7,0.69,Negative
+60,T,F,T,1.9,0.99,Negative
+27,F,F,F,2.3,0.8,Negative
+76,F,F,F,1.3,1.15,Negative
+42,F,F,F,4.3,1.35,Negative
+32,F,F,F,3.1,1.59,Negative
+43,F,F,F,0.5,1.05,Negative
+55,F,F,F,3.6,1.75,Negative
+32,F,F,F,0.9,0.47,Negative
+71,F,F,F,3.1,1.79,Negative
+27,F,F,F,2.3,0.9,Negative
+17,F,F,F,3.4,1.43,Negative
+16,F,F,T,6.2,1.04,Negative
+59,F,T,F,1.2,1.1,Negative
+64,F,F,F,2.6,0.98,Negative
+52,F,F,F,1.2,0.77,Negative
+22,F,F,F,2.5,0.82,Negative
+33,T,T,F,1.8,0.77,Negative
+65,F,F,F,1.7,1.03,Negative
+18,F,F,F,2.2,0.96,Negative
+27,F,F,F,3.8,1.73,Negative
+43,F,F,F,2.6,0.94,Negative
+45,F,F,F,2.5,1.03,Negative
+72,F,F,F,2.1,0.74,Negative
+50,F,F,F,2.6,1.44,Negative
+64,F,F,F,2,1.01,Negative
+65,T,F,F,1,1.17,Negative
+81,F,F,F,1.5,0.93,Negative
+60,T,T,F,1.4,0.92,Negative
+36,T,F,F,1.7,0.77,Negative
+67,F,F,T,1.6,0.89,Negative
+34,F,F,F,1.9,0.84,Negative
+62,F,F,F,2.1,0.93,Negative
+60,F,T,F,0.6,0.86,Negative
+33,F,F,F,1.4,1.12,Negative
+55,F,F,F,2.3,0.91,Negative
+40,F,F,F,0.4,0.83,Negative
+65,F,F,F,1.8,0.92,Negative
+72,F,F,F,1.3,1.12,Negative
+58,T,F,F,2.3,0.91,Negative
+54,F,F,F,1.9,0.93,Negative
+18,T,T,F,2.3,0.96,Negative
+48,T,F,F,2.8,1,Negative
+74,F,F,F,1.7,1,Negative
+16,F,F,F,1.2,1.45,Negative
+63,F,F,F,2,0.87,Negative
+31,F,F,F,1.7,0.99,Negative
+34,F,T,F,5,1.69,Negative
+47,F,F,F,2.4,1.03,Negative
+36,F,F,T,2,0.93,Negative
+75,F,F,F,2.3,1.04,Negative
+71,F,F,F,1.4,1.14,Negative
+79,F,F,F,1.9,0.98,Negative
+58,T,F,F,2,1.02,Negative
+64,F,F,F,2,1.04,Negative
+29,F,F,F,4.3,1.64,Negative
+47,F,F,T,4.3,1.07,Negative
+59,T,F,F,1.9,1,Negative
+27,T,T,F,2.2,1.29,Negative
+34,F,F,T,7.6,1.01,Negative
+74,F,F,F,2.2,1.29,Negative
+29,F,F,F,0.7,1.53,Negative
+66,F,T,F,1.5,0.67,Negative
+33,F,F,F,1.4,0.96,Negative
+60,F,F,F,2,0.98,Negative
+66,F,F,F,1.4,0.97,Negative
+62,F,F,F,0.8,0.74,Negative
+20,F,F,F,4.5,1.49,Negative
+63,T,F,F,1.6,0.93,Negative
+28,T,F,F,4.6,1.55,Negative
+71,F,F,F,1.9,1.03,Negative
+40,F,F,F,2.1,1.05,Negative
+72,F,F,F,2.1,0.79,Negative
+29,F,F,F,2.2,0.99,Negative
+61,F,F,T,2,0.98,Negative
+37,F,F,F,1.8,1.05,Negative
+32,T,F,F,3.2,1.68,Negative
+71,F,F,F,1.7,1.06,Negative
+87,F,F,T,3.4,0.82,Negative
+65,F,F,F,1.5,1.03,Negative
+24,F,F,F,0.2,1,Negative
+77,F,F,F,0.5,1.19,Negative
+80,F,F,F,1.7,1.06,Negative
+73,T,T,F,1.6,0.99,Negative
+22,F,F,F,4.5,1.72,Negative
+69,F,F,F,1.6,0.7,Negative
+19,F,F,F,2.3,0.96,Negative
+79,F,F,F,2,1.01,Negative
+28,T,F,F,2.6,1.55,Negative
+52,F,F,F,1.6,1.09,Negative
+65,F,F,T,3.1,0.91,Negative
+59,F,F,F,4.3,1.68,Negative
+75,F,F,F,1.8,0.93,Negative
+42,F,F,F,0.5,1.24,Negative
+61,F,F,F,1.7,0.86,Negative
+41,F,F,F,2.1,1.44,Negative
+27,F,F,F,2.5,1.1,Negative
+73,F,F,F,0.9,1.07,Negative
+39,F,F,F,0.4,1.24,Negative
+77,F,F,F,2.4,1.13,Negative
+31,F,F,T,3.7,1.62,Negative
+37,F,T,F,2.3,1.03,Negative
+43,F,F,F,2.3,1.03,Negative
+50,T,F,F,1.8,1.09,Negative
+76,F,F,F,1.6,0.96,Negative
+51,F,F,F,2,0.65,Negative
+83,F,F,F,4.4,1.44,Negative
+37,F,F,F,2.2,0.98,Negative
+73,F,F,F,1.3,1.17,Negative
+63,F,F,F,1.5,0.9,Negative
+64,F,F,F,2.2,1.11,Negative
+39,F,F,F,2.9,1.76,Negative
+80,F,F,F,1,1.01,Negative
+37,F,T,F,0.9,0.84,Negative
+61,F,F,F,1.7,0.98,Negative
+64,F,F,F,1.7,0.9,Negative
+18,F,T,F,2.4,1.68,Negative
+86,F,F,F,1.7,0.8,Negative
+34,F,F,F,3,0.67,Negative
+51,T,F,F,2.6,0.78,Negative
+71,F,F,F,1.4,0.87,Negative
+46,F,F,F,2.5,1.36,Negative
+54,F,T,F,1.8,0.68,Negative
+55,F,F,F,2.9,1.19,Negative
+22,F,F,F,1.7,0.86,Negative
+19,F,F,T,7.6,0.86,Negative
+59,F,F,T,1.9,1.13,Negative
+57,F,F,F,2.2,0.96,Negative
+50,F,F,F,1.9,0.8,Negative
+46,F,F,F,2.3,1.25,Negative
+58,F,F,F,2.2,0.83,Negative
+75,F,F,F,1.7,0.98,Negative
+59,F,F,F,1.9,0.94,Negative
+78,T,T,F,0.7,0.96,Negative
+46,T,F,F,2.2,1.1,Negative
+50,F,F,F,2.7,1.28,Negative
+55,T,F,F,1.5,1.08,Negative
+55,F,F,T,1.7,0.99,Negative
+25,F,F,F,2.2,0.97,Negative
+27,F,F,F,2.1,1.08,Negative
+28,F,F,F,2.1,0.87,Negative
+64,F,F,F,1.7,0.91,Negative
+80,F,F,F,1.5,0.83,Negative
+57,F,F,F,3.7,0.95,Negative
+44,F,F,F,1.2,0.94,Negative
+26,F,F,F,3.9,1.28,Negative
+78,F,F,F,1.1,0.86,Negative
+29,F,F,F,3.1,1.77,Negative
+22,F,F,F,2.4,0.93,Negative
+33,F,F,F,1.7,0.8,Negative
+28,F,F,F,1.2,1.03,Negative
+55,T,T,F,2.4,1.48,Negative
+24,F,F,F,2,1.02,Negative
+71,T,F,F,1.6,0.81,Negative
+82,F,F,F,1.5,0.7,Negative
+28,F,F,F,2.5,0.96,Negative
+65,F,F,F,1.5,0.96,Negative
+59,T,F,F,2.8,0.97,Negative
+21,F,F,F,1.4,0.85,Negative
+50,F,F,F,2,1.04,Negative
+32,F,F,F,2.9,1.02,Negative
+85,F,F,F,1,0.56,Negative
+41,F,F,F,1.6,1,Negative
+48,F,F,F,2.1,0.85,Negative
+49,T,T,F,2.1,0.98,Negative
+80,F,T,F,2.6,0.91,Negative
+72,F,F,F,1.7,0.78,Negative
+70,F,F,F,1.4,0.97,Negative
+53,F,F,F,1.9,1.04,Negative
+72,F,F,F,2.5,1.16,Negative
+73,F,F,F,2.6,1.05,Negative
+59,F,F,F,1.9,1.11,Negative
+53,F,F,F,1.9,0.76,Negative
+32,F,T,T,1.9,0.85,Negative
+77,F,F,F,0.5,0.67,Negative
+30,F,F,F,2.6,1.08,Negative
+46,F,F,F,1.6,1.08,Negative
+50,F,F,F,2.4,1.21,Negative
+62,F,F,F,1.5,0.86,Negative
+75,F,F,F,1.9,0.94,Negative
+68,F,F,F,2,0.82,Negative
+36,F,F,F,2.3,1.05,Negative
+52,F,F,F,2.3,1.25,Negative
+18,F,F,F,2.5,1.19,Negative
+52,F,F,F,3.4,1.65,Negative
+60,F,F,F,2.2,1.02,Negative
+35,F,T,F,2.9,1.01,Negative
+24,F,F,F,2.2,0.91,Negative
+62,F,F,F,1.5,1.21,Negative
+49,F,F,F,1.6,0.94,Negative
+80,F,F,F,1.7,0.87,Negative
+84,F,F,F,2.3,1.03,Negative
+34,F,F,F,4.7,1.02,Negative
+35,F,F,T,4.6,1.06,Negative
+64,T,F,F,1.2,1.03,Negative
+66,F,F,F,1.7,1.12,Negative
+59,F,F,F,4.5,1.65,Negative
+74,T,F,F,1.2,1,Negative
+59,F,F,F,2,0.85,Negative
+62,F,F,F,1.4,1,Negative
+28,F,F,T,2.5,0.89,Negative
+48,F,F,F,2.1,0.85,Negative
+58,T,F,F,3,1,Negative
+72,F,F,F,0.6,1.48,Negative
+76,T,F,F,1.9,1.02,Negative
+23,F,F,F,3.2,1.56,Negative
+51,F,F,F,1.7,0.68,Negative
+34,F,F,F,0.4,1.05,Negative
+69,F,F,F,2.5,0.98,Negative
+32,F,F,F,3.6,1.69,Negative
+66,F,F,F,2.2,1.13,Negative
+30,F,F,F,1.9,0.98,Negative
+32,F,F,F,1.8,0.9,Negative
+21,F,F,T,2.1,1.01,Negative
+56,F,F,F,1.7,0.84,Negative
+35,F,F,T,2.8,1.09,Negative
+59,F,F,F,1.5,1.12,Negative
+26,F,F,F,1.4,0.93,Negative
+61,F,F,F,2.2,1.16,Negative
+21,F,F,T,1.9,0.88,Negative
+57,T,F,F,1.8,1.04,Negative
+60,F,F,F,1.4,0.64,Negative
+28,T,F,F,2,0.92,Negative
+25,F,F,F,2.8,0.99,Negative
+55,F,F,T,2,0.79,Negative
+50,F,F,F,1.4,1.14,Negative
+32,F,F,F,0.4,0.95,Negative
+33,F,F,F,1.7,0.76,Negative
+20,F,F,F,2.6,1.3,Negative
+28,F,F,T,1.8,0.78,Negative
+73,F,F,F,2.4,0.88,Negative
+55,F,F,F,1.5,1.24,Negative
+83,F,F,F,1.3,0.91,Negative
+34,F,F,F,3.3,1.24,Negative
+69,F,F,T,2.4,1.19,Negative
+34,T,F,F,1.6,1.03,Negative
+28,F,F,F,3,1.38,Negative
+43,F,F,F,1.5,1.03,Negative
+30,F,F,F,2,0.97,Negative
+50,F,F,F,0.4,1.14,Negative
+55,F,T,F,0.3,0.76,Negative
+29,F,F,F,5.5,1.61,Negative
+33,F,F,F,1.7,0.95,Negative
+43,F,F,F,0.9,0.65,Negative
+65,F,F,F,2.2,1.21,Negative
+19,F,F,F,1.1,0.99,Negative
+62,F,F,F,0.4,0.8,Negative
+75,F,F,F,2.2,1,Negative
+53,F,F,F,1.7,0.8,Negative
+34,T,F,F,6.7,1.73,Negative
+38,F,F,F,2.4,1.13,Negative
+36,T,F,F,2.4,1.36,Negative
+30,F,F,F,1.2,0.93,Negative
+71,F,F,F,2.2,0.78,Negative
+27,F,F,F,0.4,0.94,Negative
+65,F,F,F,2.9,0.91,Negative
+31,F,F,F,1.7,1.3,Negative
+24,F,F,F,1.2,1.02,Negative
+55,F,F,F,2,1.01,Negative
+62,F,F,F,1.7,0.96,Negative
+38,T,F,F,2.7,1.15,Negative
+67,F,F,F,2.1,0.99,Negative
+61,F,F,F,1.2,0.84,Negative
+78,F,F,F,2.1,1,Negative
+50,F,F,F,0.5,1.12,Negative
+38,F,F,F,1.8,0.95,Negative
+15,F,F,F,2.6,0.82,Negative
+29,F,F,F,3.8,1.88,Negative
+69,F,F,F,2.7,1.06,Negative
+29,F,F,F,3.5,1.44,Negative
+58,F,F,F,1.8,1.01,Negative
+66,T,F,F,2.5,1.25,Negative
+21,F,F,T,3.7,1.76,Negative
+35,F,F,F,1.6,0.96,Negative
+38,T,F,F,1.8,1.08,Negative
+85,F,F,F,0.7,0.87,Negative
+33,F,F,F,1.4,1.04,Negative
+34,F,F,F,1.3,0.84,Negative
+18,F,F,F,3,1.32,Negative
+68,F,F,F,1.7,0.98,Negative
+65,F,F,F,1.3,0.9,Negative
+41,F,F,T,2.3,0.95,Negative
+79,F,F,F,1.6,0.84,Negative
+64,T,T,F,1.2,0.91,Negative
+60,T,T,F,1.8,0.83,Negative
+70,F,F,F,2.2,0.8,Negative
+31,F,F,F,2.4,0.9,Negative
+41,T,F,F,1.5,0.96,Negative
+23,F,F,F,2.8,1.14,Negative
+64,F,F,F,2.5,1.1,Negative
+58,F,F,F,2.5,0.84,Negative
+46,F,F,F,2.2,0.85,Negative
+65,F,F,F,0.3,1.05,Negative
+77,F,F,F,1.4,1.13,Negative
+22,F,F,F,1.5,0.84,Negative
+50,T,F,F,2.5,1.01,Negative
+68,F,F,F,2.5,1.09,Negative
+54,F,F,F,2.3,0.97,Negative
+60,F,F,F,1.7,0.87,Negative
+78,F,F,F,2.1,1.17,Negative
+63,F,F,F,1.8,0.83,Negative
+42,F,F,F,2.4,1.05,Negative
+78,F,F,F,1.7,0.95,Negative
+68,F,F,F,2.2,0.86,Negative
+59,F,F,F,1.6,1.02,Negative
+18,F,F,T,7,2,Negative
+35,F,F,F,3.1,1.19,Negative
+34,F,F,F,2.2,1.14,Negative
+30,T,F,F,1.2,0.82,Negative
+70,T,F,F,1.7,0.94,Negative
+55,F,F,F,2.1,1.03,Negative
+40,F,F,F,1.6,0.81,Negative
+44,F,F,F,2.6,1.03,Negative
+63,F,F,F,1.6,1.07,Negative
+38,F,F,F,1.8,0.85,Negative
+61,F,F,F,2.1,0.99,Negative
+88,F,F,T,1.9,1.07,Negative
+61,F,F,F,1.8,0.7,Negative
+58,F,F,F,2.1,0.75,Negative
+61,F,F,F,1.3,0.65,Negative
+28,F,T,F,1.9,1.01,Negative
+23,F,F,F,2.4,1.16,Negative
+56,T,T,F,1.4,0.77,Negative
+86,F,F,F,1.9,1.01,Negative
+75,T,F,F,3.6,1.14,Negative
+69,F,F,F,1.9,0.92,Negative
+23,F,F,F,2.6,0.9,Negative
+47,F,F,F,2.6,0.84,Negative
+23,F,F,F,2.9,0.87,Negative
+48,F,F,F,2.2,0.99,Negative
+71,F,F,F,1.8,1.03,Negative
+39,F,F,F,1,1,Negative
+56,F,F,F,0.2,0.83,Negative
+71,T,F,F,1.3,0.86,Negative
+58,F,F,F,3.1,1.4,Negative
+38,F,F,F,3.1,0.9,Negative
+24,F,F,T,3,1.23,Negative
+46,F,F,F,1.6,0.97,Negative
+34,F,F,F,2.3,1.1,Negative
+35,F,F,F,0.4,0.95,Negative
+62,F,F,F,0.2,0.41,Negative
+39,F,F,F,2.2,0.93,Negative
+74,F,F,F,2,0.9,Negative
+50,F,F,F,2.3,0.95,Negative
+18,F,F,F,3.1,1.57,Negative
+49,F,F,T,1.3,0.82,Negative
+26,F,F,F,4,1.57,Negative
+54,F,F,F,3.8,1.52,Negative
+87,F,F,F,1.6,0.79,Negative
+51,F,F,F,1.6,1.05,Negative
+39,F,F,F,2.9,1.03,Negative
+64,F,F,F,1.7,0.69,Negative
+80,F,F,T,2.5,1.01,Negative
+58,F,F,F,3,0.91,Negative
+70,F,F,T,2.6,1.07,Negative
+55,F,F,F,3,1.09,Negative
+20,F,F,T,1.5,0.71,Negative
+36,F,F,F,0.3,1.18,Negative
+60,F,F,F,2.6,1.02,Negative
+70,F,F,F,2.1,1.14,Negative
+85,F,F,F,0.7,0.87,Negative
+11,F,F,F,2.9,1.01,Negative
+20,F,F,F,3,1.29,Negative
+62,F,F,F,1.5,0.9,Negative
+47,F,F,F,0.4,0.85,Negative
+51,F,T,F,1.7,0.93,Negative
+38,F,T,F,2.2,0.76,Negative
+76,F,F,F,1.3,0.77,Negative
+71,F,F,F,1.5,0.86,Negative
+36,F,T,F,2.2,1.06,Negative
+71,T,F,F,1.7,0.91,Negative
+25,F,F,F,1.6,1.05,Negative
+22,F,F,F,2.6,1.32,Negative
+86,F,F,F,2.4,0.94,Negative
+30,F,F,F,2.6,0.84,Negative
+64,F,F,F,2.5,1.16,Negative
+48,F,F,F,1.6,1.1,Negative
+37,F,F,F,1.4,0.91,Negative
+77,F,F,F,0.5,0.67,Negative
+60,F,F,F,2.3,0.67,Negative
+79,F,F,F,1.3,0.91,Negative
+45,T,F,F,1.9,0.91,Negative
+56,F,F,F,2,0.82,Negative
+86,F,F,F,1.2,1.1,Negative
+26,F,F,T,1.7,0.99,Negative
+32,F,F,F,3.6,1.69,Negative
+71,T,F,F,0.3,0.68,Negative
+78,F,F,F,1.3,0.66,Negative
+33,F,F,F,1.2,0.87,Negative
+76,F,F,F,1.8,1.02,Negative
+62,F,F,F,2,1.15,Negative
+19,F,F,T,3.1,1.33,Negative
+30,F,F,F,3.2,1.29,Negative
+28,T,F,F,1.7,0.94,Negative
+78,F,F,F,1.6,1.05,Negative
+85,F,F,F,1.4,0.76,Negative
+22,F,F,F,3,0.89,Negative
+29,F,F,F,2.3,0.86,Negative
+62,F,F,F,2.3,0.84,Negative
+73,T,F,F,2.5,0.95,Negative
+43,F,F,F,2,0.93,Negative
+38,F,F,T,2.4,0.96,Negative
+70,F,T,F,1.6,0,Negative
+34,T,F,F,2.5,1.05,Negative
+26,F,F,F,2.2,1.08,Negative
+74,F,F,F,1.5,0.95,Negative
+42,F,F,T,4,1.56,Negative
+84,F,F,F,1.3,0.83,Negative
+71,F,F,F,1.1,1.02,Negative
+30,F,F,F,2.5,1.02,Negative
+45,F,F,F,2.1,1.24,Negative
+59,F,F,F,1.5,0.98,Negative
+65,F,F,F,2.1,0.94,Negative
+47,F,F,F,2.2,0.85,Negative
+66,F,T,F,1.1,0.98,Negative
+41,F,F,F,2.1,0.86,Negative
+39,T,F,F,1.3,0.98,Negative
+55,F,F,F,2.3,0.82,Negative
+34,F,F,T,4.2,1.65,Negative
+39,F,T,F,2.1,1.05,Negative
+72,F,F,F,2.2,1.05,Negative
+82,T,F,F,1.4,1.12,Negative
+74,F,F,F,1.4,0.89,Negative
+62,F,F,F,2.9,1.28,Negative
+40,F,F,F,0.3,0.93,Negative
+25,F,F,F,2,0.91,Negative
+57,F,F,F,1.8,0.88,Negative
+28,F,F,T,2,1.26,Negative
+78,F,F,F,0.2,1.01,Negative
+30,T,F,F,3.9,1.58,Negative
+70,F,F,F,2.3,0.88,Negative
+36,F,F,F,1.6,0.9,Negative
+66,F,F,F,2.3,0.96,Negative
+56,T,F,F,2.2,0.89,Negative
+70,F,F,F,3.1,1.08,Negative
+55,F,F,F,1.5,0.72,Negative
+58,F,F,F,1.6,1.08,Negative
+74,F,F,F,1.2,0.57,Negative
+85,F,T,F,1.1,1.19,Negative
+19,T,T,F,2.2,0.91,Negative
+66,F,T,F,1.5,0.78,Negative
+22,F,F,F,2,0.9,Negative
+64,F,F,F,1.4,1.03,Negative
+41,F,F,F,3.1,1,Negative
+48,F,F,F,1.4,0.93,Negative
+62,F,F,T,1.4,0.97,Negative
+77,F,F,T,2.3,0.84,Negative
+60,T,T,F,2.6,1.12,Negative
+70,F,F,F,1.3,1.07,Negative
+56,F,F,F,2.2,0.88,Negative
+25,F,F,F,2.1,0.96,Negative
+56,F,F,F,1.3,0.83,Negative
+58,F,F,F,3.4,0.97,Negative
+24,F,F,F,1.7,0.8,Negative
+26,F,F,F,1.9,0.79,Negative
+28,F,F,F,8.1,0.91,Negative
+39,T,F,F,3.1,1.34,Negative
+67,F,F,F,2.2,0.93,Negative
+34,F,F,F,2.9,1.51,Negative
+53,F,F,F,1.1,0.94,Negative
+41,F,F,T,3.8,1.24,Negative
+69,F,F,F,1.9,0.78,Negative
+71,F,F,F,1.9,0.99,Negative
+73,F,F,F,1.2,0.95,Negative
+24,T,F,F,1.5,0.86,Negative
+63,T,F,F,1.4,0.97,Negative
+43,F,F,F,2,0.75,Negative
+34,F,F,F,1.7,0.98,Negative
+64,F,F,F,1.5,0.88,Negative
+58,F,F,F,1.4,1.13,Negative
+65,F,F,F,2,1.17,Negative
+38,F,F,F,1.9,0.9,Negative
+42,T,F,F,1.7,0.71,Negative
+49,F,F,F,2.5,1.08,Negative
+66,F,F,F,2.1,1.04,Negative
+52,F,F,F,1.9,1.14,Negative
+31,F,F,F,3.6,1.22,Negative
+38,F,F,F,1.5,0.79,Negative
+65,F,F,F,2.6,0.99,Negative
+49,F,F,F,2.1,0.89,Negative
+71,F,F,F,1.7,0.99,Negative
+53,F,F,F,2.6,1.19,Negative
+18,F,F,F,3.1,0.9,Negative
+43,F,F,F,1.9,0.89,Negative
+71,F,F,F,1.4,0.68,Negative
+61,F,T,F,1.5,1.16,Negative
+57,T,F,F,3.2,1.05,Negative
+78,F,F,F,1.3,0.89,Negative
+24,F,F,F,1.2,0.87,Negative
+84,F,F,F,2,0.79,Negative
+36,F,F,F,2.4,1.1,Negative
+30,T,F,F,1.7,0.89,Negative
+62,F,F,F,2.7,0.69,Negative
+49,F,F,F,2.3,1.02,Negative
+47,F,F,F,1.3,0.81,Negative
+58,F,F,F,2.2,1.14,Negative
+77,F,F,F,2.1,1.03,Negative
+60,F,F,F,2.1,1.11,Negative
+50,F,F,F,0.2,1.13,Negative
+34,F,F,T,2.3,1.66,Negative
+38,F,F,F,3.3,0.92,Negative
+15,F,F,F,2.1,0.99,Negative
+75,T,F,F,1.8,1.09,Negative
+58,F,F,F,2,0.95,Negative
+41,F,F,T,3.8,1.67,Negative
+70,F,F,F,1.8,0.85,Negative
+77,F,F,F,1.2,1.28,Negative
+51,F,F,T,2.3,0.66,Negative
+72,F,F,F,1.3,1.16,Negative
+23,F,T,F,2.9,1.38,Negative
+85,F,T,F,2,1.03,Negative
+32,F,F,F,1.9,0.99,Negative
+60,F,F,T,2.4,1.02,Negative
+76,T,F,F,2.1,1.01,Negative
+70,F,F,F,2.2,0.93,Negative
+46,F,F,F,1.9,1.09,Negative
+25,F,F,F,1.9,1.03,Negative
+56,F,F,F,1.6,0.84,Negative
+64,F,F,F,2.1,0.96,Negative
+47,F,F,F,1.7,0.99,Negative
+25,F,F,F,1.2,0.81,Negative
+26,F,F,F,2.4,1.09,Negative
+32,F,F,F,2.9,1.02,Negative
+34,F,F,T,2.9,1.58,Negative
+59,F,F,F,2,1.12,Negative
+53,F,F,F,1.9,0.93,Negative
+41,F,F,T,3.8,1.24,Negative
+34,F,F,T,3.7,1.65,Negative
+28,T,T,F,2.2,0.89,Negative
+38,T,F,F,2,0.94,Negative
+47,F,F,T,3,1.23,Negative
+65,F,F,F,1.6,1.02,Negative
+75,F,F,F,1.6,1.01,Negative
+85,F,F,F,1.3,0.94,Negative
+57,F,F,F,2.1,0.97,Negative
+60,F,F,F,2,0.94,Negative
+57,F,F,F,1.6,1.04,Negative
+71,F,T,F,0.4,0.74,Negative
+27,F,F,F,1.9,0.77,Negative
+29,F,F,F,2.1,0.87,Negative
+80,T,F,F,1.5,1.05,Negative
+39,F,F,T,4,1.06,Negative
+41,F,F,F,3.1,1,Negative
+38,F,F,F,4.7,1.83,Negative
+64,T,F,F,1.3,0.89,Negative
+57,F,F,F,2.4,0.89,Negative
+31,F,F,F,2,0.8,Negative
+76,F,F,F,1.6,1.08,Negative
+66,F,F,F,1.2,0.85,Negative
+31,T,F,F,1.5,0.79,Negative
+60,F,T,F,1.6,0.73,Negative
+55,F,F,F,1.5,0.67,Negative
+37,F,F,F,1.7,0.98,Negative
+83,F,F,F,1.7,0.8,Negative
+82,F,F,F,2.4,0.9,Negative
+64,F,F,F,2,1,Negative
+72,F,F,F,1.5,0.53,Negative
+61,F,F,F,1.8,0.76,Negative
+63,F,F,F,2,1.03,Negative
+75,F,F,F,1.3,1.04,Negative
+60,F,T,F,1.7,0.96,Negative
+59,F,F,F,1.2,0.83,Negative
+57,F,F,F,2.3,1.18,Negative
+22,T,F,F,2,0.96,Negative
+61,F,F,F,1,0.91,Negative
+22,F,F,F,2.6,0.96,Negative
+24,F,F,F,3.2,0.94,Negative
+30,F,F,F,1.5,1.06,Negative
+36,F,F,F,1.2,0.75,Negative
+84,F,F,F,1.5,0.95,Negative
+33,F,F,T,2.1,0.96,Negative
+69,F,T,F,2.1,0.87,Negative
+54,F,F,F,2.4,0.96,Negative
+73,F,F,F,1.6,1.02,Negative
+32,F,F,F,1.6,0.54,Negative
+26,F,F,F,1.3,0.77,Negative
+42,F,F,F,2,0.98,Negative
+27,F,F,F,3.3,1.71,Negative
+61,F,F,T,1.8,1.01,Negative
+70,F,F,F,0.3,0.9,Negative
+59,F,F,F,1.2,0.93,Negative
+46,F,F,F,3,0.93,Negative
+51,T,T,F,1.9,1.09,Negative
+38,F,F,F,4.3,1.62,Negative
+71,F,F,F,1.6,1.02,Negative
+38,T,F,F,2.1,0.95,Negative
+58,F,F,F,2.4,1.04,Negative
+16,F,F,F,2,1.18,Negative
+85,F,F,F,3.2,1.73,Negative
+73,F,F,F,1.2,0.83,Negative
+34,F,F,T,2,1,Negative
+61,T,F,F,2.1,1.1,Negative
+35,F,F,F,2.3,1.21,Negative
+70,F,F,F,1.8,1.03,Negative
+63,F,F,F,1.4,0.96,Negative
+79,F,F,F,2.1,0.98,Negative
+58,F,F,F,2.3,1.08,Negative
+57,F,F,F,1.7,1.05,Negative
+36,F,F,F,2,0.88,Negative
+64,F,F,F,1.8,0.93,Negative
+40,T,F,F,1.7,0.75,Negative
+70,F,F,F,1.4,1.07,Negative
+55,F,F,F,1.6,1.04,Negative
+59,F,F,F,2,0.69,Negative
+41,F,T,T,1.8,1.03,Negative
+43,F,F,F,1.6,0.93,Negative
+76,F,F,F,1,0.83,Negative
+28,F,F,F,1.5,0.93,Negative
+67,F,F,F,2.9,0.9,Negative
+20,F,T,F,1.9,0.92,Negative
+54,F,F,F,2.3,0.93,Negative
+72,F,F,F,0.3,1,Negative
+39,F,F,F,2.5,0.98,Negative
+18,F,T,F,2.5,1.63,Negative
+38,F,F,F,1.5,0.71,Negative
+59,F,F,F,1.7,0.94,Negative
+50,F,F,F,1.4,0.82,Negative
+28,F,F,F,1.8,1.01,Negative
+71,F,F,F,1.4,0.81,Negative
+79,F,F,F,1.6,0.82,Negative
+80,F,F,F,2.2,1.03,Negative
+48,F,F,F,2,0.78,Negative
+65,F,F,F,2.2,1.05,Negative
+31,F,F,F,2.1,1.68,Negative
+39,F,F,F,2.1,1.08,Negative
+17,F,F,F,2.1,1.17,Negative
+66,F,T,F,2,0.99,Negative
+44,F,F,F,2,0.84,Negative
+46,F,F,F,4.6,0.85,Negative
+63,F,F,T,0.7,1.24,Negative
+35,F,F,F,5.1,1,Negative
+47,F,F,F,2.1,1.02,Negative
+83,F,F,F,0.6,1.02,Negative
+78,F,F,F,0.2,1.01,Negative
+60,F,F,F,2.8,1.07,Negative
+76,F,F,F,1.6,1.33,Negative
+60,F,F,F,3.2,1.47,Negative
+62,F,F,F,1.5,1.14,Negative
+79,F,F,F,3.4,0.74,Negative
+47,F,F,F,2.1,0.85,Negative
+73,F,F,F,0.7,0.92,Negative
+74,F,F,T,3.1,1.13,Negative
+34,F,F,F,4.2,1.94,Negative
+68,F,F,F,2,1.05,Negative
+53,F,F,F,1.9,0.89,Negative
+57,F,T,F,2.8,1.11,Negative
+78,T,F,F,1.4,0.93,Negative
+27,F,F,F,2.8,1.46,Negative
+80,F,F,F,3.7,0.93,Negative
+46,T,F,F,1.9,0.5,Negative
+53,F,F,F,2.4,0.94,Negative
+75,F,F,F,2.1,0.89,Negative
+26,F,F,F,3.6,1.63,Negative
+79,F,F,F,2,0.78,Negative
+43,F,F,F,2.2,1.01,Negative
+52,F,T,F,2.1,1.1,Negative
+67,F,F,F,2,0.86,Negative
+63,F,F,F,1.6,0.85,Negative
+64,F,T,F,1.7,1.12,Negative
+73,F,F,F,1.7,0.97,Negative
+73,F,T,F,1.8,1,Negative
+67,F,F,F,1.9,1.17,Negative
+57,T,F,F,3.2,1.05,Negative
+49,F,F,F,2.7,0.89,Negative
+67,F,F,F,2.2,0.95,Negative
+31,F,F,F,1.7,0.8,Negative
+37,F,F,F,2.3,0.84,Negative
+70,F,T,F,2,1.05,Negative
+80,F,F,F,1.3,0.88,Negative
+69,F,F,F,1.2,1.11,Negative
+17,F,F,F,1.2,1.5,Negative
+64,F,F,F,1.3,1.27,Negative
+43,T,F,F,1.4,0.7,Negative
+82,F,F,F,4.3,1.06,Negative
+61,F,F,F,2.2,0.87,Negative
+62,F,F,F,1.7,1.07,Negative
+53,F,F,F,1.8,0.87,Negative
+60,F,F,F,2.7,1.2,Negative
+59,F,F,F,1.8,0.86,Negative
+31,F,F,F,1.9,1.1,Negative
+62,T,F,F,2.5,1.11,Negative
+54,F,F,F,1.5,0.72,Negative
+57,F,F,F,1.3,0.77,Negative
+83,F,F,F,1.1,0.68,Negative
+35,F,F,F,1.7,0.76,Negative
+46,T,F,F,1.8,0.92,Negative
+61,F,F,F,1.8,0.69,Negative
+58,F,F,F,2.6,1.15,Negative
+78,F,F,F,1.6,1.23,Negative
+28,T,F,F,3.1,1.57,Negative
+55,F,F,F,1.5,0.77,Negative
+15,T,F,F,1.7,1.13,Negative
+66,F,F,T,2.6,0.95,Negative
+41,F,F,F,2.1,0.89,Negative
+87,F,F,F,1.7,0.87,Negative
+72,F,F,F,2.5,1.33,Negative
+53,F,F,F,0.4,1.19,Negative
+29,F,F,F,2.4,1.01,Negative
+38,F,F,F,1.5,0.71,Negative
+49,T,F,F,2.5,1.09,Negative
+27,F,F,F,2,1.11,Negative
+78,F,F,F,1.8,0.91,Negative
+80,F,F,F,2.3,1.04,Negative
+59,F,F,F,1.6,1.04,Negative
+59,F,F,F,2.4,1.23,Negative
+34,F,F,F,2.7,0.94,Negative
+53,F,T,F,1.2,1.07,Negative
+69,F,T,F,1.6,0.97,Negative
+52,F,F,T,2.1,1.15,Negative
+68,F,F,F,1.3,0.92,Negative
+37,F,F,F,1.5,0.63,Negative
+41,F,F,T,3.9,0.73,Negative
+37,F,F,F,2.2,0.77,Negative
+59,F,F,F,1.8,1.29,Negative
+33,F,F,F,2.5,0.92,Negative
+74,F,F,F,2.1,0.85,Negative
+72,T,F,F,1.7,0.96,Negative
+70,F,F,F,2.3,1.3,Negative
+86,F,F,F,1.5,0.8,Negative
+37,F,F,F,2,0.83,Negative
+69,F,F,F,2.4,1.03,Negative
+30,F,F,F,1.3,0.82,Negative
+55,F,F,F,1.8,0.81,Negative
+65,F,F,T,3.5,0.98,Negative
+67,F,F,F,1.5,1.14,Negative
+59,F,F,F,2.2,0.83,Negative
+77,T,F,F,1.9,1.08,Negative
+63,F,F,F,0.4,0.64,Negative
+75,T,F,F,1.9,0.81,Negative
+62,F,F,F,1.6,0.62,Negative
+72,F,F,T,4.3,0.77,Negative
+73,F,F,F,1.1,0.49,Negative
+13,F,F,F,2.7,0.91,Negative
+47,F,F,T,4.3,1.07,Negative
+79,F,F,F,1.6,0.97,Negative
+72,F,T,F,1.6,0.91,Negative
+74,F,F,F,1.9,0.81,Negative
+71,F,F,T,2.1,1.16,Negative
+36,F,F,F,3.7,1.65,Negative
+62,F,F,F,1.7,0.87,Negative
+35,F,F,F,2,0.94,Negative
+72,F,F,T,3.2,0.74,Negative
+12,F,F,F,1.9,0.89,Negative
+50,F,F,F,1.4,0.79,Negative
+15,T,F,F,1.9,0.92,Negative
+53,F,F,F,2,0.95,Negative
+75,F,T,F,1.8,0.75,Negative
+57,T,F,F,1.1,0.7,Negative
+30,F,F,F,2.2,0.79,Negative
+69,F,F,F,1.1,0.73,Negative
+27,F,F,F,1.2,1.28,Negative
+52,F,F,F,1.8,0.98,Negative
+23,F,F,F,1.8,0.96,Negative
+54,T,F,F,1.6,0.89,Negative
+62,F,F,F,1.1,0.74,Negative
+33,F,F,T,2,1.01,Negative
+54,F,F,F,1.5,0.85,Negative
+49,F,T,F,1.2,0.69,Negative
+51,F,F,F,1.8,0.4,Negative
+40,F,F,F,1.7,0.93,Negative
+38,F,F,F,2.2,0.78,Negative
+65,F,F,F,1.2,0.98,Negative
+42,F,F,F,2,0.91,Negative
+42,F,F,F,1.4,0.83,Negative
+68,F,F,T,2.7,0.93,Negative
+46,F,F,F,3.5,0.99,Negative
+62,F,F,F,1.6,1.07,Negative
+44,F,F,F,1.5,0.9,Negative
+50,F,F,F,1.2,1.03,Negative
+68,F,F,F,2.2,0.91,Negative
+46,F,F,F,3,0.93,Negative
+65,F,T,F,4.2,1.05,Negative
+52,F,F,F,2.7,1.19,Negative
+63,F,F,F,1.4,1.02,Negative
+71,F,F,F,1.5,0.96,Negative
+72,F,F,F,1.6,1.1,Negative
+26,T,F,F,2.2,0.99,Negative
+69,F,T,F,1.9,0.97,Negative
+70,F,T,F,1.8,1.11,Negative
+13,F,F,F,3,1.11,Negative
+81,F,F,F,1.6,1.16,Negative
+41,F,F,F,1.5,1.05,Negative
+46,F,F,F,2.2,0.9,Negative
+12,T,F,F,3,0.89,Negative
+42,F,F,T,3.9,1.7,Negative
+50,F,F,F,1.4,0.82,Negative
+41,F,F,F,2.6,0.96,Negative
+75,T,F,F,2.1,1.01,Negative
+73,F,F,T,1.5,1.14,Negative
+28,F,F,F,1.6,0.88,Negative
+45,F,F,F,1.6,0.95,Negative
+61,F,F,F,0.4,0.64,Negative
+30,F,F,F,1.9,0.9,Negative
+72,F,F,F,1.3,1.38,Negative
+72,F,F,T,2.5,0.83,Negative
+50,F,F,F,2.1,0.72,Negative
+72,F,F,F,1.3,0.59,Negative
+39,T,F,F,2.6,1.19,Negative
+41,F,F,F,2.3,1.05,Negative
+25,T,F,F,2.8,1.66,Negative
+17,F,T,F,2,0.99,Negative
+25,F,F,F,2.2,0.98,Negative
+60,F,F,F,2,0.97,Negative
+33,F,F,F,1.4,0.92,Negative
+71,F,F,F,1.3,0.86,Negative
+50,F,F,F,1.4,0.72,Negative
+41,F,F,F,6.2,0.89,Negative
+55,F,F,F,1.4,1.03,Negative
+27,F,F,F,2.1,1.09,Negative
+29,F,F,F,2.2,0.97,Negative
+25,F,F,F,2.1,0.85,Negative
+66,F,F,F,1.6,1.06,Negative
+56,T,F,F,2.7,0.99,Negative
+74,T,F,F,1.9,1.02,Negative
+37,F,F,F,1.5,0.97,Negative
+85,F,T,F,1.1,0.89,Negative
+39,F,F,F,2.1,1.06,Negative
+64,F,F,F,1.7,1,Negative
+63,F,F,F,1.4,0.83,Negative
+67,F,T,F,1.4,1.06,Negative
+78,F,F,F,2.2,0.98,Negative
+19,F,F,F,2.7,1.11,Negative
+58,F,F,T,1.6,0.99,Negative
+57,F,F,T,4.2,0.7,Negative
+67,F,F,F,1.4,1.01,Negative
+47,F,F,F,1.4,0.76,Negative
+44,F,F,F,1.5,1.07,Negative
+27,T,F,F,2.6,1.16,Negative
+68,T,F,F,2.4,0.96,Negative
+28,F,F,F,1.8,1.01,Negative
+27,F,F,F,2.9,1.52,Negative
+68,F,F,F,1.6,0.82,Negative
+62,F,F,F,1.7,0.68,Negative
+77,F,F,F,2.7,0.98,Negative
+23,F,F,F,2.4,0.99,Negative
+75,F,F,F,2.8,1.35,Negative
+52,F,T,F,1.7,0.76,Negative
+77,F,T,F,1.4,1.09,Negative
+33,T,F,F,2.2,0.81,Negative
+19,F,F,F,1.6,0.53,Negative
+60,F,F,F,1.3,0.85,Negative
+19,F,F,F,4.4,1.76,Negative
+34,F,F,T,4.5,1.37,Negative
+39,F,F,T,1.7,0.85,Negative
+46,F,F,F,2,0.91,Negative
+27,T,F,F,2.8,1.43,Negative
+62,F,F,F,1.7,1.07,Negative
+31,F,F,F,2.6,0.91,Negative
+53,F,F,F,2.5,1.28,Negative
+38,F,F,F,2.5,1.01,Negative
+51,F,F,F,1.4,1.01,Negative
+53,F,F,F,2.5,0.92,Negative
+62,F,F,F,1.3,0.97,Negative
+56,F,F,F,2.5,1.16,Negative
+70,F,F,F,3.1,1.08,Negative
+73,T,F,F,2.3,1.22,Negative
+73,F,F,F,1.3,0.91,Negative
+37,F,F,F,2.1,0.92,Negative
+79,T,T,F,1.8,0.89,Negative
+71,F,F,F,2.5,1,Negative
+27,F,F,F,2.8,1.26,Negative
+59,T,F,F,2.5,1.4,Negative
+57,F,F,F,1.8,0.79,Negative
+48,F,F,F,2.3,1.06,Negative
+32,F,F,F,2.3,1.02,Negative
+55,F,F,F,1.9,0.95,Negative
+32,F,F,F,2.3,0.92,Negative
+62,F,F,F,1.8,0.88,Negative
+29,F,F,F,3.6,1.76,Negative
+59,F,F,F,2.7,1.09,Negative
+50,F,F,F,0.2,0.7,Negative
+16,F,F,F,3.1,0.91,Negative
+27,F,F,F,2,1.01,Negative
+14,F,F,F,1.9,0.83,Negative
+70,T,F,F,1.8,1.18,Negative
+68,T,F,F,1.6,0.94,Negative
+82,F,F,F,1.8,0.83,Negative
+60,T,F,F,3.3,1.14,Negative
+18,F,F,F,2.3,0.85,Negative
+66,F,F,F,2.2,0.92,Negative
+41,F,F,F,2.1,1.16,Negative
+23,F,F,F,2.3,1.04,Negative
+12,F,F,F,4.8,1.14,Negative
+78,F,F,F,2.2,1.01,Negative
+32,F,F,F,2.9,1.12,Negative
+70,T,F,F,1.8,1,Negative
+59,F,F,F,3.8,1.7,Negative
+68,F,F,F,0.6,1.01,Negative
+62,F,F,F,1.9,1.08,Negative
+38,F,F,F,3.4,0.98,Negative
+45,F,F,F,1.7,1.07,Negative
+62,T,F,F,0.9,0.74,Negative
+73,F,F,F,1,1.39,Negative
+70,F,F,F,0.9,0.58,Negative
+55,F,F,F,1.8,0.91,Negative
+79,F,F,F,1.5,0.69,Negative
+76,F,F,F,1.6,0.97,Negative
+24,F,F,F,0.7,1,Negative
+70,F,F,F,1.2,1.06,Negative
+23,F,F,F,3.3,1.52,Negative
+78,F,F,F,1.5,0.88,Negative
+29,F,F,F,2.7,1.25,Negative
+38,F,F,F,1.8,0.99,Negative
+84,F,F,F,0.7,1.11,Negative
+84,F,F,F,1.8,0.99,Negative
+52,F,F,F,2.1,0.91,Negative
+40,F,F,F,3.2,1.05,Negative
+21,F,F,F,1.8,0.97,Negative
+36,F,F,F,3.2,1.74,Negative
+57,F,F,F,2.4,1.07,Negative
+72,F,F,F,2.2,1.29,Negative
+48,F,F,F,2,1,Negative
+51,F,F,F,1.5,0.9,Negative
+51,F,F,F,1.2,0.89,Negative
+69,F,T,F,2.5,1.15,Negative
+77,F,F,F,2.4,0.8,Negative
+60,F,F,F,1.8,0.75,Negative
+53,F,F,F,2.5,1.18,Negative
+76,F,F,F,2.7,1.08,Negative
+53,F,F,T,1.5,0.98,Negative
+70,F,F,F,2,0.82,Negative
+39,F,F,F,2,0.81,Negative
+63,F,F,F,1.2,0.9,Negative
+81,F,F,F,1.8,0.86,Negative
+32,T,F,F,2.1,1.05,Negative
+28,F,F,F,2.3,1.26,Negative
+51,F,T,F,2.6,1.03,Negative
+19,F,F,F,3.1,1.06,Negative
+64,T,F,F,1.4,1.18,Negative
+72,F,F,F,0.5,1.27,Negative
+54,F,T,F,2.5,1.44,Negative
+53,T,T,F,2.3,0.95,Negative
+30,F,F,F,1.4,0.79,Negative
+64,F,F,F,1,0.79,Negative
+60,F,F,F,1.9,0.91,Negative
+67,F,T,F,2,0.96,Negative
+72,F,T,F,2.3,0.99,Negative
+43,F,F,T,1.7,1.1,Negative
+66,F,F,F,2.3,0.99,Negative
+69,F,F,F,2.2,0.98,Negative
+28,F,F,F,3.1,1.05,Negative
+80,F,F,F,2.8,1,Negative
+30,T,F,F,2.8,1.73,Negative
+59,F,F,F,2.3,1,Negative
+57,F,F,F,6.6,0.86,Negative
+73,T,F,F,2.1,1.13,Negative
+59,T,F,F,2.8,0.99,Negative
+26,F,F,F,1.5,0.94,Negative
+60,F,F,F,1.1,0.97,Negative
+84,F,F,F,1.3,0.95,Negative
+63,T,T,F,1.5,1.2,Negative
+37,F,F,F,3,0.93,Negative
+61,F,F,F,1.7,0.94,Negative
+74,T,F,F,1.8,1.18,Negative
+78,F,F,T,1.8,0.86,Negative
+27,F,F,F,0.4,0.9,Negative
+34,T,F,F,3.7,1.21,Negative
+73,T,F,F,1.5,1.08,Negative
+29,F,F,F,2.6,0.76,Negative
+56,F,T,F,2.6,1.2,Negative
+70,F,F,F,2.3,1.06,Negative
+83,F,F,F,1.4,0.81,Negative
+84,F,F,F,1.5,1.05,Negative
+19,F,F,F,3.6,1.53,Negative
+86,F,F,F,1.4,1.01,Negative
+54,F,F,F,2.2,1.03,Negative
+80,F,F,F,1.3,0.88,Negative
+73,F,F,F,2.5,0.97,Negative
+58,T,F,F,1.8,0.82,Negative
+74,F,F,F,1.9,0.71,Negative
+60,F,F,F,1.2,0.61,Negative
+67,F,F,F,1.5,1.02,Negative
+41,F,F,F,2.1,0.87,Negative
+51,F,F,F,2.1,0.89,Negative
+36,F,F,F,3.4,1.37,Negative
+73,F,F,F,1.7,0.8,Negative
+47,F,F,F,4.9,1.05,Negative
+49,F,F,F,2.2,1,Negative
+32,T,F,F,2.3,0.75,Negative
+66,T,T,F,2.1,1.1,Negative
+54,F,F,F,1.3,0.69,Negative
+74,F,F,F,2.1,0.99,Negative
+72,F,F,F,0.4,0.98,Negative
+28,F,F,F,2.3,1.01,Negative
+70,F,F,F,1.8,0.85,Negative
+16,F,F,F,3.2,0.94,Negative
+61,T,F,F,1.9,0.9,Negative
+63,F,F,F,2.7,0.93,Negative
+72,F,F,F,1.6,0.91,Negative
+59,F,F,F,3.6,1.18,Negative
+79,F,F,F,1.6,0.97,Negative
+58,F,F,F,2.9,1.03,Negative
+25,F,F,T,3.3,0.95,Negative
+38,F,F,F,2,1,Negative
+80,F,F,F,1.5,0.99,Negative
+58,F,F,T,1.9,1.06,Negative
+58,F,F,F,3.1,1.4,Negative
+78,F,F,T,1.7,1.03,Negative
+72,T,F,F,1.1,1.07,Negative
+40,F,F,F,1.2,0.9,Negative
+69,F,F,F,1.8,1.02,Negative
+58,F,F,F,1.7,0.91,Negative
+29,F,F,F,1.8,1.01,Negative
+56,T,F,F,1.8,0.97,Negative
